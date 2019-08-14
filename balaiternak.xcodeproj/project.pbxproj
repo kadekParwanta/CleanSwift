@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CDE27344F266AFBF03D2A45 /* Pods_balaiternakCacheTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45ECA4CA28805D9D0DD0D618 /* Pods_balaiternakCacheTests.framework */; };
+		27AB65A00B9C743C4F7168F8 /* Pods_balaiternakDataTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7933B06B35B56B1C83A38C11 /* Pods_balaiternakDataTests.framework */; };
+		2AEC0AA8E5010B4657BFD25B /* Pods_balaiternakRemoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C8FF450C6AA0A75FE05836 /* Pods_balaiternakRemoteTests.framework */; };
+		34BA626EC657FC9E742AA93C /* Pods_balaiternakDomainTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CCE4B85EB259DD6F3D55C2 /* Pods_balaiternakDomainTests.framework */; };
 		500281312302497B006E4143 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500281302302497B006E4143 /* AppDelegate.swift */; };
 		500281332302497B006E4143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500281322302497B006E4143 /* ViewController.swift */; };
 		500281362302497B006E4143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 500281342302497B006E4143 /* Main.storyboard */; };
@@ -14,6 +18,73 @@
 		5002813B2302497C006E4143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5002813A2302497C006E4143 /* Assets.xcassets */; };
 		5002813E2302497C006E4143 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5002813C2302497C006E4143 /* LaunchScreen.storyboard */; };
 		500281492302497C006E4143 /* balaiternakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500281482302497C006E4143 /* balaiternakTests.swift */; };
+		5002816123024B0E006E4143 /* balaiternakDomain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5002815823024B0E006E4143 /* balaiternakDomain.framework */; };
+		5002816823024B0E006E4143 /* balaiternakDomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5002816723024B0E006E4143 /* balaiternakDomainTests.swift */; };
+		5002816A23024B0E006E4143 /* balaiternakDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 5002815A23024B0E006E4143 /* balaiternakDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5002816D23024B0E006E4143 /* balaiternakDomain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5002815823024B0E006E4143 /* balaiternakDomain.framework */; };
+		5002816E23024B0E006E4143 /* balaiternakDomain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5002815823024B0E006E4143 /* balaiternakDomain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5002817823024C9E006E4143 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5002817723024C9E006E4143 /* User.swift */; };
+		5002817B23024D38006E4143 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5002817A23024D38006E4143 /* UserRepository.swift */; };
+		5002817F23024D8C006E4143 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5002817E23024D8C006E4143 /* Login.swift */; };
+		50EFDA3A2304433B0067E68F /* balaiternakData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA312304433B0067E68F /* balaiternakData.framework */; };
+		50EFDA412304433B0067E68F /* balaiternakDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA402304433B0067E68F /* balaiternakDataTests.swift */; };
+		50EFDA432304433B0067E68F /* balaiternakData.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EFDA332304433B0067E68F /* balaiternakData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50EFDA462304433B0067E68F /* balaiternakData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA312304433B0067E68F /* balaiternakData.framework */; };
+		50EFDA472304433B0067E68F /* balaiternakData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA312304433B0067E68F /* balaiternakData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		50EFDA50230443660067E68F /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA4F230443660067E68F /* UserEntity.swift */; };
+		50EFDA53230443940067E68F /* UserCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA52230443940067E68F /* UserCache.swift */; };
+		50EFDA55230444BC0067E68F /* UserDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA54230444BC0067E68F /* UserDataStore.swift */; };
+		50EFDA57230444FC0067E68F /* UserRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA56230444FC0067E68F /* UserRemote.swift */; };
+		50EFDA5A2304453F0067E68F /* UserCacheDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA592304453F0067E68F /* UserCacheDataStore.swift */; };
+		50EFDA5C230447670067E68F /* UserRemoteDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA5B230447670067E68F /* UserRemoteDataStore.swift */; };
+		50EFDA5E230447DC0067E68F /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA5D230447DC0067E68F /* CustomError.swift */; };
+		50EFDA60230448780067E68F /* UserDataStoreFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA5F230448780067E68F /* UserDataStoreFactory.swift */; };
+		50EFDA622304496B0067E68F /* UserDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA612304496B0067E68F /* UserDataRepository.swift */; };
+		50EFDA6523044F090067E68F /* UserMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA6423044F090067E68F /* UserMapper.swift */; };
+		50EFDA6723044F190067E68F /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA6623044F190067E68F /* Mapper.swift */; };
+		50EFDA76230456B30067E68F /* balaiternakCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA6D230456B30067E68F /* balaiternakCache.framework */; };
+		50EFDA7D230456B30067E68F /* balaiternakCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA7C230456B30067E68F /* balaiternakCacheTests.swift */; };
+		50EFDA7F230456B30067E68F /* balaiternakCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EFDA6F230456B30067E68F /* balaiternakCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50EFDA82230456B30067E68F /* balaiternakCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA6D230456B30067E68F /* balaiternakCache.framework */; };
+		50EFDA83230456B30067E68F /* balaiternakCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA6D230456B30067E68F /* balaiternakCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		50EFDA8C230457000067E68F /* CachedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA8B230457000067E68F /* CachedUser.swift */; };
+		50EFDA8F2304573D0067E68F /* EntityMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA8E2304573D0067E68F /* EntityMapper.swift */; };
+		50EFDA91230457760067E68F /* UserEntityMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA90230457760067E68F /* UserEntityMapper.swift */; };
+		50EFDA93230457E70067E68F /* UserCacheImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA92230457E70067E68F /* UserCacheImpl.swift */; };
+		50EFDA94230459680067E68F /* balaiternakDomain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5002815823024B0E006E4143 /* balaiternakDomain.framework */; };
+		50EFDA95230459700067E68F /* balaiternakData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA312304433B0067E68F /* balaiternakData.framework */; };
+		50EFDAA423045A640067E68F /* balaiternakPresentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA9B23045A640067E68F /* balaiternakPresentation.framework */; };
+		50EFDAAB23045A640067E68F /* balaiternakPresentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDAAA23045A640067E68F /* balaiternakPresentationTests.swift */; };
+		50EFDAAD23045A640067E68F /* balaiternakPresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EFDA9D23045A640067E68F /* balaiternakPresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50EFDAB023045A640067E68F /* balaiternakPresentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA9B23045A640067E68F /* balaiternakPresentation.framework */; };
+		50EFDAB123045A640067E68F /* balaiternakPresentation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA9B23045A640067E68F /* balaiternakPresentation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		50EFDAB823045A8E0067E68F /* balaiternakDomain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5002815823024B0E006E4143 /* balaiternakDomain.framework */; };
+		50EFDABC23045AFF0067E68F /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDABB23045AFF0067E68F /* UserView.swift */; };
+		50EFDAC123045B300067E68F /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDAC023045B300067E68F /* Mapper.swift */; };
+		50EFDAC323045B6F0067E68F /* UserMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDAC223045B6F0067E68F /* UserMapper.swift */; };
+		50EFDAC723045BE20067E68F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDAC623045BE20067E68F /* LoginViewModel.swift */; };
+		50EFDAC923045CA60067E68F /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDAC823045CA60067E68F /* ViewModelType.swift */; };
+		50EFDACA230460D60067E68F /* balaiternakData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA312304433B0067E68F /* balaiternakData.framework */; };
+		50EFDACB230461680067E68F /* balaiternakCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA6D230456B30067E68F /* balaiternakCache.framework */; };
+		50EFDADA230463F30067E68F /* balaiternakRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDAD1230463F30067E68F /* balaiternakRemote.framework */; };
+		50EFDAE1230463F30067E68F /* balaiternakRemoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDAE0230463F30067E68F /* balaiternakRemoteTests.swift */; };
+		50EFDAE3230463F30067E68F /* balaiternakRemote.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EFDAD3230463F30067E68F /* balaiternakRemote.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50EFDAE6230463F30067E68F /* balaiternakRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDAD1230463F30067E68F /* balaiternakRemote.framework */; };
+		50EFDAE7230463F30067E68F /* balaiternakRemote.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDAD1230463F30067E68F /* balaiternakRemote.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		50EFDAEE230463FF0067E68F /* balaiternakData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA312304433B0067E68F /* balaiternakData.framework */; };
+		50EFDAF2230464490067E68F /* UserRemoteImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDAF1230464490067E68F /* UserRemoteImpl.swift */; };
+		50EFDAF42304645B0067E68F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDAF32304645B0067E68F /* UserModel.swift */; };
+		50EFDAF6230464830067E68F /* EntityMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDAF5230464830067E68F /* EntityMapper.swift */; };
+		50EFDAF82304648C0067E68F /* UserEntityMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDAF72304648C0067E68F /* UserEntityMapper.swift */; };
+		50EFDAF9230465950067E68F /* balaiternakRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDAD1230463F30067E68F /* balaiternakRemote.framework */; };
+		A88DAF8E82C55D19B4FC595F /* Pods_balaiternakRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D03688AA3E302D524938E2 /* Pods_balaiternakRemote.framework */; };
+		A91EF56023418C8E016901F8 /* Pods_balaiternak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA8C4262424B571B9211F4E /* Pods_balaiternak.framework */; };
+		B262146B045EA37E48F1F3FD /* Pods_balaiternakTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DDB6F3B7DC8F7F5DDDCC46 /* Pods_balaiternakTests.framework */; };
+		BE8347DBCA564DE1142F4A74 /* Pods_balaiternakPresentationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBF71427899DFCD76A20103 /* Pods_balaiternakPresentationTests.framework */; };
+		C075129581CC1E7030FF4A17 /* Pods_balaiternakCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B313BFA8953F3FBA66FD9EB /* Pods_balaiternakCache.framework */; };
+		C449D03E9E94F0190DE25A2F /* Pods_balaiternakData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1260FB46F782C77CE77347 /* Pods_balaiternakData.framework */; };
+		F995C54696658E869C2F2CDD /* Pods_balaiternakDomain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFC0865FB17628B29E94704 /* Pods_balaiternakDomain.framework */; };
+		FEB37EB698AB4DB0D1F5521A /* Pods_balaiternakPresentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEB62B3EAB8C303780F0F22 /* Pods_balaiternakPresentation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,9 +95,142 @@
 			remoteGlobalIDString = 5002812C2302497B006E4143;
 			remoteInfo = balaiternak;
 		};
+		5002816223024B0E006E4143 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500281252302497B006E4143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5002815723024B0E006E4143;
+			remoteInfo = balaiternakDomain;
+		};
+		5002816423024B0E006E4143 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500281252302497B006E4143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5002812C2302497B006E4143;
+			remoteInfo = balaiternak;
+		};
+		5002816B23024B0E006E4143 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500281252302497B006E4143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5002815723024B0E006E4143;
+			remoteInfo = balaiternakDomain;
+		};
+		50EFDA3B2304433B0067E68F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500281252302497B006E4143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50EFDA302304433B0067E68F;
+			remoteInfo = balaiternakData;
+		};
+		50EFDA3D2304433B0067E68F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500281252302497B006E4143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5002812C2302497B006E4143;
+			remoteInfo = balaiternak;
+		};
+		50EFDA442304433B0067E68F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500281252302497B006E4143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50EFDA302304433B0067E68F;
+			remoteInfo = balaiternakData;
+		};
+		50EFDA77230456B30067E68F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500281252302497B006E4143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50EFDA6C230456B30067E68F;
+			remoteInfo = balaiternakCache;
+		};
+		50EFDA79230456B30067E68F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500281252302497B006E4143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5002812C2302497B006E4143;
+			remoteInfo = balaiternak;
+		};
+		50EFDA80230456B30067E68F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500281252302497B006E4143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50EFDA6C230456B30067E68F;
+			remoteInfo = balaiternakCache;
+		};
+		50EFDAA523045A640067E68F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500281252302497B006E4143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50EFDA9A23045A640067E68F;
+			remoteInfo = balaiternakPresentation;
+		};
+		50EFDAA723045A640067E68F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500281252302497B006E4143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5002812C2302497B006E4143;
+			remoteInfo = balaiternak;
+		};
+		50EFDAAE23045A640067E68F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500281252302497B006E4143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50EFDA9A23045A640067E68F;
+			remoteInfo = balaiternakPresentation;
+		};
+		50EFDADB230463F30067E68F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500281252302497B006E4143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50EFDAD0230463F30067E68F;
+			remoteInfo = balaiternakRemote;
+		};
+		50EFDADD230463F30067E68F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500281252302497B006E4143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5002812C2302497B006E4143;
+			remoteInfo = balaiternak;
+		};
+		50EFDAE4230463F30067E68F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500281252302497B006E4143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50EFDAD0230463F30067E68F;
+			remoteInfo = balaiternakRemote;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5002817223024B0F006E4143 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5002816E23024B0E006E4143 /* balaiternakDomain.framework in Embed Frameworks */,
+				50EFDAB123045A640067E68F /* balaiternakPresentation.framework in Embed Frameworks */,
+				50EFDAE7230463F30067E68F /* balaiternakRemote.framework in Embed Frameworks */,
+				50EFDA472304433B0067E68F /* balaiternakData.framework in Embed Frameworks */,
+				50EFDA83230456B30067E68F /* balaiternakCache.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		046657DD293659ED43ABA24D /* Pods-balaiternakRemote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakRemote.release.xcconfig"; path = "Target Support Files/Pods-balaiternakRemote/Pods-balaiternakRemote.release.xcconfig"; sourceTree = "<group>"; };
+		1B31426E94898F746F9EB3BF /* Pods-balaiternakPresentation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakPresentation.release.xcconfig"; path = "Target Support Files/Pods-balaiternakPresentation/Pods-balaiternakPresentation.release.xcconfig"; sourceTree = "<group>"; };
+		1EDA31D92C4CA5C8885EAF92 /* Pods-balaiternakRemoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakRemoteTests.release.xcconfig"; path = "Target Support Files/Pods-balaiternakRemoteTests/Pods-balaiternakRemoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		26F776A71692A35533979C08 /* Pods-balaiternakCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakCache.debug.xcconfig"; path = "Target Support Files/Pods-balaiternakCache/Pods-balaiternakCache.debug.xcconfig"; sourceTree = "<group>"; };
+		382F0C01754C9A49B2C7CA49 /* Pods-balaiternakTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakTests.release.xcconfig"; path = "Target Support Files/Pods-balaiternakTests/Pods-balaiternakTests.release.xcconfig"; sourceTree = "<group>"; };
+		3EBF71427899DFCD76A20103 /* Pods_balaiternakPresentationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_balaiternakPresentationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA8C4262424B571B9211F4E /* Pods_balaiternak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_balaiternak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		402EF20CE78062569B2D3D1E /* Pods-balaiternakDomainTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakDomainTests.debug.xcconfig"; path = "Target Support Files/Pods-balaiternakDomainTests/Pods-balaiternakDomainTests.debug.xcconfig"; sourceTree = "<group>"; };
+		45ECA4CA28805D9D0DD0D618 /* Pods_balaiternakCacheTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_balaiternakCacheTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D03688AA3E302D524938E2 /* Pods_balaiternakRemote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_balaiternakRemote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5002812D2302497B006E4143 /* balaiternak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = balaiternak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		500281302302497B006E4143 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		500281322302497B006E4143 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +242,89 @@
 		500281442302497C006E4143 /* balaiternakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = balaiternakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		500281482302497C006E4143 /* balaiternakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = balaiternakTests.swift; sourceTree = "<group>"; };
 		5002814A2302497C006E4143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5002815823024B0E006E4143 /* balaiternakDomain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = balaiternakDomain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5002815A23024B0E006E4143 /* balaiternakDomain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = balaiternakDomain.h; sourceTree = "<group>"; };
+		5002815B23024B0E006E4143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5002816023024B0E006E4143 /* balaiternakDomainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = balaiternakDomainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5002816723024B0E006E4143 /* balaiternakDomainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = balaiternakDomainTests.swift; sourceTree = "<group>"; };
+		5002816923024B0E006E4143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5002817723024C9E006E4143 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5002817A23024D38006E4143 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		5002817E23024D8C006E4143 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		50EFDA312304433B0067E68F /* balaiternakData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = balaiternakData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EFDA332304433B0067E68F /* balaiternakData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = balaiternakData.h; sourceTree = "<group>"; };
+		50EFDA342304433B0067E68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50EFDA392304433B0067E68F /* balaiternakDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = balaiternakDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EFDA402304433B0067E68F /* balaiternakDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = balaiternakDataTests.swift; sourceTree = "<group>"; };
+		50EFDA422304433B0067E68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50EFDA4F230443660067E68F /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		50EFDA52230443940067E68F /* UserCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCache.swift; sourceTree = "<group>"; };
+		50EFDA54230444BC0067E68F /* UserDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataStore.swift; sourceTree = "<group>"; };
+		50EFDA56230444FC0067E68F /* UserRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRemote.swift; sourceTree = "<group>"; };
+		50EFDA592304453F0067E68F /* UserCacheDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCacheDataStore.swift; sourceTree = "<group>"; };
+		50EFDA5B230447670067E68F /* UserRemoteDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRemoteDataStore.swift; sourceTree = "<group>"; };
+		50EFDA5D230447DC0067E68F /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		50EFDA5F230448780067E68F /* UserDataStoreFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataStoreFactory.swift; sourceTree = "<group>"; };
+		50EFDA612304496B0067E68F /* UserDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataRepository.swift; sourceTree = "<group>"; };
+		50EFDA6423044F090067E68F /* UserMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMapper.swift; sourceTree = "<group>"; };
+		50EFDA6623044F190067E68F /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		50EFDA6D230456B30067E68F /* balaiternakCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = balaiternakCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EFDA6F230456B30067E68F /* balaiternakCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = balaiternakCache.h; sourceTree = "<group>"; };
+		50EFDA70230456B30067E68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50EFDA75230456B30067E68F /* balaiternakCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = balaiternakCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EFDA7C230456B30067E68F /* balaiternakCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = balaiternakCacheTests.swift; sourceTree = "<group>"; };
+		50EFDA7E230456B30067E68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50EFDA8B230457000067E68F /* CachedUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedUser.swift; sourceTree = "<group>"; };
+		50EFDA8E2304573D0067E68F /* EntityMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityMapper.swift; sourceTree = "<group>"; };
+		50EFDA90230457760067E68F /* UserEntityMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntityMapper.swift; sourceTree = "<group>"; };
+		50EFDA92230457E70067E68F /* UserCacheImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCacheImpl.swift; sourceTree = "<group>"; };
+		50EFDA9B23045A640067E68F /* balaiternakPresentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = balaiternakPresentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EFDA9D23045A640067E68F /* balaiternakPresentation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = balaiternakPresentation.h; sourceTree = "<group>"; };
+		50EFDA9E23045A640067E68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50EFDAA323045A640067E68F /* balaiternakPresentationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = balaiternakPresentationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EFDAAA23045A640067E68F /* balaiternakPresentationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = balaiternakPresentationTests.swift; sourceTree = "<group>"; };
+		50EFDAAC23045A640067E68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50EFDABB23045AFF0067E68F /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		50EFDAC023045B300067E68F /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		50EFDAC223045B6F0067E68F /* UserMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMapper.swift; sourceTree = "<group>"; };
+		50EFDAC623045BE20067E68F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		50EFDAC823045CA60067E68F /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		50EFDAD1230463F30067E68F /* balaiternakRemote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = balaiternakRemote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EFDAD3230463F30067E68F /* balaiternakRemote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = balaiternakRemote.h; sourceTree = "<group>"; };
+		50EFDAD4230463F30067E68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50EFDAD9230463F30067E68F /* balaiternakRemoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = balaiternakRemoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EFDAE0230463F30067E68F /* balaiternakRemoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = balaiternakRemoteTests.swift; sourceTree = "<group>"; };
+		50EFDAE2230463F30067E68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50EFDAF1230464490067E68F /* UserRemoteImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRemoteImpl.swift; sourceTree = "<group>"; };
+		50EFDAF32304645B0067E68F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		50EFDAF5230464830067E68F /* EntityMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityMapper.swift; sourceTree = "<group>"; };
+		50EFDAF72304648C0067E68F /* UserEntityMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntityMapper.swift; sourceTree = "<group>"; };
+		55AB93740BECE1D67C81563F /* Pods-balaiternakCacheTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakCacheTests.release.xcconfig"; path = "Target Support Files/Pods-balaiternakCacheTests/Pods-balaiternakCacheTests.release.xcconfig"; sourceTree = "<group>"; };
+		59387E901F4E1E043B6E2C96 /* Pods-balaiternakDataTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakDataTests.debug.xcconfig"; path = "Target Support Files/Pods-balaiternakDataTests/Pods-balaiternakDataTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62C8FF450C6AA0A75FE05836 /* Pods_balaiternakRemoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_balaiternakRemoteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B313BFA8953F3FBA66FD9EB /* Pods_balaiternakCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_balaiternakCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCA313BB4E0A56BFD57A92E /* Pods-balaiternakData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakData.debug.xcconfig"; path = "Target Support Files/Pods-balaiternakData/Pods-balaiternakData.debug.xcconfig"; sourceTree = "<group>"; };
+		6EDECEF4F05DC98CA98D48D8 /* Pods-balaiternakDomainTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakDomainTests.release.xcconfig"; path = "Target Support Files/Pods-balaiternakDomainTests/Pods-balaiternakDomainTests.release.xcconfig"; sourceTree = "<group>"; };
+		7933B06B35B56B1C83A38C11 /* Pods_balaiternakDataTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_balaiternakDataTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		805F8345EB49067C43A9F7F9 /* Pods-balaiternakPresentationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakPresentationTests.debug.xcconfig"; path = "Target Support Files/Pods-balaiternakPresentationTests/Pods-balaiternakPresentationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		889129439A694448A30AAB7B /* Pods-balaiternakPresentationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakPresentationTests.release.xcconfig"; path = "Target Support Files/Pods-balaiternakPresentationTests/Pods-balaiternakPresentationTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A699A86ABA97A6C94C8E878 /* Pods-balaiternak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternak.debug.xcconfig"; path = "Target Support Files/Pods-balaiternak/Pods-balaiternak.debug.xcconfig"; sourceTree = "<group>"; };
+		8CFC0865FB17628B29E94704 /* Pods_balaiternakDomain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_balaiternakDomain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99775FC3FBB10EE22BCCD945 /* Pods-balaiternakTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakTests.debug.xcconfig"; path = "Target Support Files/Pods-balaiternakTests/Pods-balaiternakTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE2D74542C0F7C3CB7C622C3 /* Pods-balaiternakData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakData.release.xcconfig"; path = "Target Support Files/Pods-balaiternakData/Pods-balaiternakData.release.xcconfig"; sourceTree = "<group>"; };
+		AFF04BCBAE26E7B61EE8F3DF /* Pods-balaiternakCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakCache.release.xcconfig"; path = "Target Support Files/Pods-balaiternakCache/Pods-balaiternakCache.release.xcconfig"; sourceTree = "<group>"; };
+		B3DDB6F3B7DC8F7F5DDDCC46 /* Pods_balaiternakTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_balaiternakTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60CC6C7E66FAA05DEE782CC /* Pods-balaiternakCacheTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakCacheTests.debug.xcconfig"; path = "Target Support Files/Pods-balaiternakCacheTests/Pods-balaiternakCacheTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB765DF3923EA0998118908E /* Pods-balaiternakRemote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakRemote.debug.xcconfig"; path = "Target Support Files/Pods-balaiternakRemote/Pods-balaiternakRemote.debug.xcconfig"; sourceTree = "<group>"; };
+		BE8B86F16B2FB79A75F68118 /* Pods-balaiternakRemoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakRemoteTests.debug.xcconfig"; path = "Target Support Files/Pods-balaiternakRemoteTests/Pods-balaiternakRemoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6B683E33530E65E9937F565 /* Pods-balaiternakPresentation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakPresentation.debug.xcconfig"; path = "Target Support Files/Pods-balaiternakPresentation/Pods-balaiternakPresentation.debug.xcconfig"; sourceTree = "<group>"; };
+		DDEB62B3EAB8C303780F0F22 /* Pods_balaiternakPresentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_balaiternakPresentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8F70A8BBAF591067B51FB5 /* Pods-balaiternak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternak.release.xcconfig"; path = "Target Support Files/Pods-balaiternak/Pods-balaiternak.release.xcconfig"; sourceTree = "<group>"; };
+		E33AE88FAB9D6141B8FDAAAC /* Pods-balaiternakDomain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakDomain.debug.xcconfig"; path = "Target Support Files/Pods-balaiternakDomain/Pods-balaiternakDomain.debug.xcconfig"; sourceTree = "<group>"; };
+		E8E97BB9A9A7ADB163C968D8 /* Pods-balaiternakDataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakDataTests.release.xcconfig"; path = "Target Support Files/Pods-balaiternakDataTests/Pods-balaiternakDataTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3CCE4B85EB259DD6F3D55C2 /* Pods_balaiternakDomainTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_balaiternakDomainTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F903A9F0EE280D310F4E8BC9 /* Pods-balaiternakDomain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balaiternakDomain.release.xcconfig"; path = "Target Support Files/Pods-balaiternakDomain/Pods-balaiternakDomain.release.xcconfig"; sourceTree = "<group>"; };
+		FD1260FB46F782C77CE77347 /* Pods_balaiternakData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_balaiternakData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +332,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50EFDA82230456B30067E68F /* balaiternakCache.framework in Frameworks */,
+				50EFDAE6230463F30067E68F /* balaiternakRemote.framework in Frameworks */,
+				50EFDA462304433B0067E68F /* balaiternakData.framework in Frameworks */,
+				5002816D23024B0E006E4143 /* balaiternakDomain.framework in Frameworks */,
+				50EFDAB023045A640067E68F /* balaiternakPresentation.framework in Frameworks */,
+				A91EF56023418C8E016901F8 /* Pods_balaiternak.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +345,173 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B262146B045EA37E48F1F3FD /* Pods_balaiternakTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5002815523024B0E006E4143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F995C54696658E869C2F2CDD /* Pods_balaiternakDomain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5002815D23024B0E006E4143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5002816123024B0E006E4143 /* balaiternakDomain.framework in Frameworks */,
+				34BA626EC657FC9E742AA93C /* Pods_balaiternakDomainTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDA2E2304433B0067E68F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EFDA94230459680067E68F /* balaiternakDomain.framework in Frameworks */,
+				C449D03E9E94F0190DE25A2F /* Pods_balaiternakData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDA362304433B0067E68F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EFDA3A2304433B0067E68F /* balaiternakData.framework in Frameworks */,
+				27AB65A00B9C743C4F7168F8 /* Pods_balaiternakDataTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDA6A230456B30067E68F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EFDA95230459700067E68F /* balaiternakData.framework in Frameworks */,
+				C075129581CC1E7030FF4A17 /* Pods_balaiternakCache.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDA72230456B30067E68F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EFDA76230456B30067E68F /* balaiternakCache.framework in Frameworks */,
+				0CDE27344F266AFBF03D2A45 /* Pods_balaiternakCacheTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDA9823045A640067E68F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EFDAF9230465950067E68F /* balaiternakRemote.framework in Frameworks */,
+				50EFDACB230461680067E68F /* balaiternakCache.framework in Frameworks */,
+				50EFDACA230460D60067E68F /* balaiternakData.framework in Frameworks */,
+				50EFDAB823045A8E0067E68F /* balaiternakDomain.framework in Frameworks */,
+				FEB37EB698AB4DB0D1F5521A /* Pods_balaiternakPresentation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDAA023045A640067E68F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EFDAA423045A640067E68F /* balaiternakPresentation.framework in Frameworks */,
+				BE8347DBCA564DE1142F4A74 /* Pods_balaiternakPresentationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDACE230463F30067E68F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EFDAEE230463FF0067E68F /* balaiternakData.framework in Frameworks */,
+				A88DAF8E82C55D19B4FC595F /* Pods_balaiternakRemote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDAD6230463F30067E68F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EFDADA230463F30067E68F /* balaiternakRemote.framework in Frameworks */,
+				2AEC0AA8E5010B4657BFD25B /* Pods_balaiternakRemoteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CAED54630AB93A07FDA743E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A699A86ABA97A6C94C8E878 /* Pods-balaiternak.debug.xcconfig */,
+				DE8F70A8BBAF591067B51FB5 /* Pods-balaiternak.release.xcconfig */,
+				E33AE88FAB9D6141B8FDAAAC /* Pods-balaiternakDomain.debug.xcconfig */,
+				F903A9F0EE280D310F4E8BC9 /* Pods-balaiternakDomain.release.xcconfig */,
+				99775FC3FBB10EE22BCCD945 /* Pods-balaiternakTests.debug.xcconfig */,
+				382F0C01754C9A49B2C7CA49 /* Pods-balaiternakTests.release.xcconfig */,
+				6DCA313BB4E0A56BFD57A92E /* Pods-balaiternakData.debug.xcconfig */,
+				AE2D74542C0F7C3CB7C622C3 /* Pods-balaiternakData.release.xcconfig */,
+				59387E901F4E1E043B6E2C96 /* Pods-balaiternakDataTests.debug.xcconfig */,
+				E8E97BB9A9A7ADB163C968D8 /* Pods-balaiternakDataTests.release.xcconfig */,
+				402EF20CE78062569B2D3D1E /* Pods-balaiternakDomainTests.debug.xcconfig */,
+				6EDECEF4F05DC98CA98D48D8 /* Pods-balaiternakDomainTests.release.xcconfig */,
+				26F776A71692A35533979C08 /* Pods-balaiternakCache.debug.xcconfig */,
+				AFF04BCBAE26E7B61EE8F3DF /* Pods-balaiternakCache.release.xcconfig */,
+				B60CC6C7E66FAA05DEE782CC /* Pods-balaiternakCacheTests.debug.xcconfig */,
+				55AB93740BECE1D67C81563F /* Pods-balaiternakCacheTests.release.xcconfig */,
+				C6B683E33530E65E9937F565 /* Pods-balaiternakPresentation.debug.xcconfig */,
+				1B31426E94898F746F9EB3BF /* Pods-balaiternakPresentation.release.xcconfig */,
+				805F8345EB49067C43A9F7F9 /* Pods-balaiternakPresentationTests.debug.xcconfig */,
+				889129439A694448A30AAB7B /* Pods-balaiternakPresentationTests.release.xcconfig */,
+				BB765DF3923EA0998118908E /* Pods-balaiternakRemote.debug.xcconfig */,
+				046657DD293659ED43ABA24D /* Pods-balaiternakRemote.release.xcconfig */,
+				BE8B86F16B2FB79A75F68118 /* Pods-balaiternakRemoteTests.debug.xcconfig */,
+				1EDA31D92C4CA5C8885EAF92 /* Pods-balaiternakRemoteTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2EFAA1561CC1768EB6BB8F3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FA8C4262424B571B9211F4E /* Pods_balaiternak.framework */,
+				8CFC0865FB17628B29E94704 /* Pods_balaiternakDomain.framework */,
+				B3DDB6F3B7DC8F7F5DDDCC46 /* Pods_balaiternakTests.framework */,
+				FD1260FB46F782C77CE77347 /* Pods_balaiternakData.framework */,
+				7933B06B35B56B1C83A38C11 /* Pods_balaiternakDataTests.framework */,
+				F3CCE4B85EB259DD6F3D55C2 /* Pods_balaiternakDomainTests.framework */,
+				6B313BFA8953F3FBA66FD9EB /* Pods_balaiternakCache.framework */,
+				45ECA4CA28805D9D0DD0D618 /* Pods_balaiternakCacheTests.framework */,
+				DDEB62B3EAB8C303780F0F22 /* Pods_balaiternakPresentation.framework */,
+				3EBF71427899DFCD76A20103 /* Pods_balaiternakPresentationTests.framework */,
+				46D03688AA3E302D524938E2 /* Pods_balaiternakRemote.framework */,
+				62C8FF450C6AA0A75FE05836 /* Pods_balaiternakRemoteTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		500281242302497B006E4143 = {
 			isa = PBXGroup;
 			children = (
 				5002812F2302497B006E4143 /* balaiternak */,
 				500281472302497C006E4143 /* balaiternakTests */,
+				5002815923024B0E006E4143 /* balaiternakDomain */,
+				5002816623024B0E006E4143 /* balaiternakDomainTests */,
+				50EFDA322304433B0067E68F /* balaiternakData */,
+				50EFDA3F2304433B0067E68F /* balaiternakDataTests */,
+				50EFDA6E230456B30067E68F /* balaiternakCache */,
+				50EFDA7B230456B30067E68F /* balaiternakCacheTests */,
+				50EFDA9C23045A640067E68F /* balaiternakPresentation */,
+				50EFDAA923045A640067E68F /* balaiternakPresentationTests */,
+				50EFDAD2230463F30067E68F /* balaiternakRemote */,
+				50EFDADF230463F30067E68F /* balaiternakRemoteTests */,
 				5002812E2302497B006E4143 /* Products */,
+				0CAED54630AB93A07FDA743E /* Pods */,
+				2EFAA1561CC1768EB6BB8F3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +520,16 @@
 			children = (
 				5002812D2302497B006E4143 /* balaiternak.app */,
 				500281442302497C006E4143 /* balaiternakTests.xctest */,
+				5002815823024B0E006E4143 /* balaiternakDomain.framework */,
+				5002816023024B0E006E4143 /* balaiternakDomainTests.xctest */,
+				50EFDA312304433B0067E68F /* balaiternakData.framework */,
+				50EFDA392304433B0067E68F /* balaiternakDataTests.xctest */,
+				50EFDA6D230456B30067E68F /* balaiternakCache.framework */,
+				50EFDA75230456B30067E68F /* balaiternakCacheTests.xctest */,
+				50EFDA9B23045A640067E68F /* balaiternakPresentation.framework */,
+				50EFDAA323045A640067E68F /* balaiternakPresentationTests.xctest */,
+				50EFDAD1230463F30067E68F /* balaiternakRemote.framework */,
+				50EFDAD9230463F30067E68F /* balaiternakRemoteTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,20 +557,316 @@
 			path = balaiternakTests;
 			sourceTree = "<group>";
 		};
+		5002815923024B0E006E4143 /* balaiternakDomain */ = {
+			isa = PBXGroup;
+			children = (
+				5002817C23024D75006E4143 /* interactor */,
+				5002817923024D1F006E4143 /* repository */,
+				5002817623024C8F006E4143 /* model */,
+				5002815A23024B0E006E4143 /* balaiternakDomain.h */,
+				5002815B23024B0E006E4143 /* Info.plist */,
+			);
+			path = balaiternakDomain;
+			sourceTree = "<group>";
+		};
+		5002816623024B0E006E4143 /* balaiternakDomainTests */ = {
+			isa = PBXGroup;
+			children = (
+				5002816723024B0E006E4143 /* balaiternakDomainTests.swift */,
+				5002816923024B0E006E4143 /* Info.plist */,
+			);
+			path = balaiternakDomainTests;
+			sourceTree = "<group>";
+		};
+		5002817623024C8F006E4143 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				5002817723024C9E006E4143 /* User.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		5002817923024D1F006E4143 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				5002817A23024D38006E4143 /* UserRepository.swift */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		5002817C23024D75006E4143 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				5002817D23024D7F006E4143 /* user */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		5002817D23024D7F006E4143 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				5002817E23024D8C006E4143 /* Login.swift */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		50EFDA322304433B0067E68F /* balaiternakData */ = {
+			isa = PBXGroup;
+			children = (
+				50EFDA6323044B790067E68F /* mapper */,
+				50EFDA582304451E0067E68F /* source */,
+				50EFDA512304437C0067E68F /* repository */,
+				50EFDA4E230443540067E68F /* model */,
+				50EFDA332304433B0067E68F /* balaiternakData.h */,
+				50EFDA342304433B0067E68F /* Info.plist */,
+				50EFDA5D230447DC0067E68F /* CustomError.swift */,
+				50EFDA612304496B0067E68F /* UserDataRepository.swift */,
+			);
+			path = balaiternakData;
+			sourceTree = "<group>";
+		};
+		50EFDA3F2304433B0067E68F /* balaiternakDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				50EFDA402304433B0067E68F /* balaiternakDataTests.swift */,
+				50EFDA422304433B0067E68F /* Info.plist */,
+			);
+			path = balaiternakDataTests;
+			sourceTree = "<group>";
+		};
+		50EFDA4E230443540067E68F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				50EFDA4F230443660067E68F /* UserEntity.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		50EFDA512304437C0067E68F /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				50EFDA52230443940067E68F /* UserCache.swift */,
+				50EFDA54230444BC0067E68F /* UserDataStore.swift */,
+				50EFDA56230444FC0067E68F /* UserRemote.swift */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		50EFDA582304451E0067E68F /* source */ = {
+			isa = PBXGroup;
+			children = (
+				50EFDA592304453F0067E68F /* UserCacheDataStore.swift */,
+				50EFDA5B230447670067E68F /* UserRemoteDataStore.swift */,
+				50EFDA5F230448780067E68F /* UserDataStoreFactory.swift */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		50EFDA6323044B790067E68F /* mapper */ = {
+			isa = PBXGroup;
+			children = (
+				50EFDA6623044F190067E68F /* Mapper.swift */,
+				50EFDA6423044F090067E68F /* UserMapper.swift */,
+			);
+			path = mapper;
+			sourceTree = "<group>";
+		};
+		50EFDA6E230456B30067E68F /* balaiternakCache */ = {
+			isa = PBXGroup;
+			children = (
+				50EFDA8D230457330067E68F /* mapper */,
+				50EFDA8A230456F20067E68F /* model */,
+				50EFDA6F230456B30067E68F /* balaiternakCache.h */,
+				50EFDA70230456B30067E68F /* Info.plist */,
+				50EFDA92230457E70067E68F /* UserCacheImpl.swift */,
+			);
+			path = balaiternakCache;
+			sourceTree = "<group>";
+		};
+		50EFDA7B230456B30067E68F /* balaiternakCacheTests */ = {
+			isa = PBXGroup;
+			children = (
+				50EFDA7C230456B30067E68F /* balaiternakCacheTests.swift */,
+				50EFDA7E230456B30067E68F /* Info.plist */,
+			);
+			path = balaiternakCacheTests;
+			sourceTree = "<group>";
+		};
+		50EFDA8A230456F20067E68F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				50EFDA8B230457000067E68F /* CachedUser.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		50EFDA8D230457330067E68F /* mapper */ = {
+			isa = PBXGroup;
+			children = (
+				50EFDA8E2304573D0067E68F /* EntityMapper.swift */,
+				50EFDA90230457760067E68F /* UserEntityMapper.swift */,
+			);
+			path = mapper;
+			sourceTree = "<group>";
+		};
+		50EFDA9C23045A640067E68F /* balaiternakPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				50EFDAC423045BC90067E68F /* activity */,
+				50EFDABD23045B150067E68F /* mapper */,
+				50EFDABA23045AF40067E68F /* model */,
+				50EFDA9D23045A640067E68F /* balaiternakPresentation.h */,
+				50EFDA9E23045A640067E68F /* Info.plist */,
+				50EFDAC823045CA60067E68F /* ViewModelType.swift */,
+			);
+			path = balaiternakPresentation;
+			sourceTree = "<group>";
+		};
+		50EFDAA923045A640067E68F /* balaiternakPresentationTests */ = {
+			isa = PBXGroup;
+			children = (
+				50EFDAAA23045A640067E68F /* balaiternakPresentationTests.swift */,
+				50EFDAAC23045A640067E68F /* Info.plist */,
+			);
+			path = balaiternakPresentationTests;
+			sourceTree = "<group>";
+		};
+		50EFDABA23045AF40067E68F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				50EFDABB23045AFF0067E68F /* UserView.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		50EFDABD23045B150067E68F /* mapper */ = {
+			isa = PBXGroup;
+			children = (
+				50EFDAC023045B300067E68F /* Mapper.swift */,
+				50EFDAC223045B6F0067E68F /* UserMapper.swift */,
+			);
+			path = mapper;
+			sourceTree = "<group>";
+		};
+		50EFDAC423045BC90067E68F /* activity */ = {
+			isa = PBXGroup;
+			children = (
+				50EFDAC523045BD10067E68F /* user */,
+			);
+			path = activity;
+			sourceTree = "<group>";
+		};
+		50EFDAC523045BD10067E68F /* user */ = {
+			isa = PBXGroup;
+			children = (
+				50EFDAC623045BE20067E68F /* LoginViewModel.swift */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		50EFDAD2230463F30067E68F /* balaiternakRemote */ = {
+			isa = PBXGroup;
+			children = (
+				50EFDAF02304643B0067E68F /* mapper */,
+				50EFDAEF230464350067E68F /* model */,
+				50EFDAD3230463F30067E68F /* balaiternakRemote.h */,
+				50EFDAD4230463F30067E68F /* Info.plist */,
+				50EFDAF1230464490067E68F /* UserRemoteImpl.swift */,
+			);
+			path = balaiternakRemote;
+			sourceTree = "<group>";
+		};
+		50EFDADF230463F30067E68F /* balaiternakRemoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				50EFDAE0230463F30067E68F /* balaiternakRemoteTests.swift */,
+				50EFDAE2230463F30067E68F /* Info.plist */,
+			);
+			path = balaiternakRemoteTests;
+			sourceTree = "<group>";
+		};
+		50EFDAEF230464350067E68F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				50EFDAF32304645B0067E68F /* UserModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		50EFDAF02304643B0067E68F /* mapper */ = {
+			isa = PBXGroup;
+			children = (
+				50EFDAF5230464830067E68F /* EntityMapper.swift */,
+				50EFDAF72304648C0067E68F /* UserEntityMapper.swift */,
+			);
+			path = mapper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5002815323024B0E006E4143 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5002816A23024B0E006E4143 /* balaiternakDomain.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDA2C2304433B0067E68F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EFDA432304433B0067E68F /* balaiternakData.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDA68230456B30067E68F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EFDA7F230456B30067E68F /* balaiternakCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDA9623045A640067E68F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EFDAAD23045A640067E68F /* balaiternakPresentation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDACC230463F30067E68F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EFDAE3230463F30067E68F /* balaiternakRemote.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		5002812C2302497B006E4143 /* balaiternak */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5002814D2302497C006E4143 /* Build configuration list for PBXNativeTarget "balaiternak" */;
 			buildPhases = (
+				1F1438F1CBA28598C3FD43B9 /* [CP] Check Pods Manifest.lock */,
 				500281292302497B006E4143 /* Sources */,
 				5002812A2302497B006E4143 /* Frameworks */,
 				5002812B2302497B006E4143 /* Resources */,
+				5002817223024B0F006E4143 /* Embed Frameworks */,
+				D8136D3ADDC11FFD0BD5A07C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5002816C23024B0E006E4143 /* PBXTargetDependency */,
+				50EFDA452304433B0067E68F /* PBXTargetDependency */,
+				50EFDA81230456B30067E68F /* PBXTargetDependency */,
+				50EFDAAF23045A640067E68F /* PBXTargetDependency */,
+				50EFDAE5230463F30067E68F /* PBXTargetDependency */,
 			);
 			name = balaiternak;
 			productName = balaiternak;
@@ -123,9 +877,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 500281502302497C006E4143 /* Build configuration list for PBXNativeTarget "balaiternakTests" */;
 			buildPhases = (
+				E58A165A392433778BE09360 /* [CP] Check Pods Manifest.lock */,
 				500281402302497C006E4143 /* Sources */,
 				500281412302497C006E4143 /* Frameworks */,
 				500281422302497C006E4143 /* Resources */,
+				BB5C55CFAEF2687B528204E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +891,206 @@
 			name = balaiternakTests;
 			productName = balaiternakTests;
 			productReference = 500281442302497C006E4143 /* balaiternakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5002815723024B0E006E4143 /* balaiternakDomain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5002816F23024B0F006E4143 /* Build configuration list for PBXNativeTarget "balaiternakDomain" */;
+			buildPhases = (
+				10C457FEF8852982442AF55F /* [CP] Check Pods Manifest.lock */,
+				5002815323024B0E006E4143 /* Headers */,
+				5002815423024B0E006E4143 /* Sources */,
+				5002815523024B0E006E4143 /* Frameworks */,
+				5002815623024B0E006E4143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = balaiternakDomain;
+			productName = balaiternakDomain;
+			productReference = 5002815823024B0E006E4143 /* balaiternakDomain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5002815F23024B0E006E4143 /* balaiternakDomainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5002817323024B0F006E4143 /* Build configuration list for PBXNativeTarget "balaiternakDomainTests" */;
+			buildPhases = (
+				2A2A62E3080F35793C9C8D54 /* [CP] Check Pods Manifest.lock */,
+				5002815C23024B0E006E4143 /* Sources */,
+				5002815D23024B0E006E4143 /* Frameworks */,
+				5002815E23024B0E006E4143 /* Resources */,
+				A7B5C19225F56F75CAFAA4BB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5002816323024B0E006E4143 /* PBXTargetDependency */,
+				5002816523024B0E006E4143 /* PBXTargetDependency */,
+			);
+			name = balaiternakDomainTests;
+			productName = balaiternakDomainTests;
+			productReference = 5002816023024B0E006E4143 /* balaiternakDomainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50EFDA302304433B0067E68F /* balaiternakData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EFDA4C2304433B0067E68F /* Build configuration list for PBXNativeTarget "balaiternakData" */;
+			buildPhases = (
+				FF03CF22AB18EC9F25210DBE /* [CP] Check Pods Manifest.lock */,
+				50EFDA2C2304433B0067E68F /* Headers */,
+				50EFDA2D2304433B0067E68F /* Sources */,
+				50EFDA2E2304433B0067E68F /* Frameworks */,
+				50EFDA2F2304433B0067E68F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = balaiternakData;
+			productName = balaiternakData;
+			productReference = 50EFDA312304433B0067E68F /* balaiternakData.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50EFDA382304433B0067E68F /* balaiternakDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EFDA4D2304433B0067E68F /* Build configuration list for PBXNativeTarget "balaiternakDataTests" */;
+			buildPhases = (
+				6EC28B22FF7D31234CEEC9F4 /* [CP] Check Pods Manifest.lock */,
+				50EFDA352304433B0067E68F /* Sources */,
+				50EFDA362304433B0067E68F /* Frameworks */,
+				50EFDA372304433B0067E68F /* Resources */,
+				F1E523949F6161DEDB73991F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50EFDA3C2304433B0067E68F /* PBXTargetDependency */,
+				50EFDA3E2304433B0067E68F /* PBXTargetDependency */,
+			);
+			name = balaiternakDataTests;
+			productName = balaiternakDataTests;
+			productReference = 50EFDA392304433B0067E68F /* balaiternakDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50EFDA6C230456B30067E68F /* balaiternakCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EFDA84230456B30067E68F /* Build configuration list for PBXNativeTarget "balaiternakCache" */;
+			buildPhases = (
+				AB22310B47996F2B0FCCE0BC /* [CP] Check Pods Manifest.lock */,
+				50EFDA68230456B30067E68F /* Headers */,
+				50EFDA69230456B30067E68F /* Sources */,
+				50EFDA6A230456B30067E68F /* Frameworks */,
+				50EFDA6B230456B30067E68F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = balaiternakCache;
+			productName = balaiternakCache;
+			productReference = 50EFDA6D230456B30067E68F /* balaiternakCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50EFDA74230456B30067E68F /* balaiternakCacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EFDA87230456B30067E68F /* Build configuration list for PBXNativeTarget "balaiternakCacheTests" */;
+			buildPhases = (
+				A91671B03CC48FCE7BA33F41 /* [CP] Check Pods Manifest.lock */,
+				50EFDA71230456B30067E68F /* Sources */,
+				50EFDA72230456B30067E68F /* Frameworks */,
+				50EFDA73230456B30067E68F /* Resources */,
+				DA99BE9B5E2DAF1096A8E46D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50EFDA78230456B30067E68F /* PBXTargetDependency */,
+				50EFDA7A230456B30067E68F /* PBXTargetDependency */,
+			);
+			name = balaiternakCacheTests;
+			productName = balaiternakCacheTests;
+			productReference = 50EFDA75230456B30067E68F /* balaiternakCacheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50EFDA9A23045A640067E68F /* balaiternakPresentation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EFDAB223045A640067E68F /* Build configuration list for PBXNativeTarget "balaiternakPresentation" */;
+			buildPhases = (
+				CF7D25FF315C29775144B023 /* [CP] Check Pods Manifest.lock */,
+				50EFDA9623045A640067E68F /* Headers */,
+				50EFDA9723045A640067E68F /* Sources */,
+				50EFDA9823045A640067E68F /* Frameworks */,
+				50EFDA9923045A640067E68F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = balaiternakPresentation;
+			productName = balaiternakPresentation;
+			productReference = 50EFDA9B23045A640067E68F /* balaiternakPresentation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50EFDAA223045A640067E68F /* balaiternakPresentationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EFDAB523045A640067E68F /* Build configuration list for PBXNativeTarget "balaiternakPresentationTests" */;
+			buildPhases = (
+				0956347F9EFA4946D01CCBBA /* [CP] Check Pods Manifest.lock */,
+				50EFDA9F23045A640067E68F /* Sources */,
+				50EFDAA023045A640067E68F /* Frameworks */,
+				50EFDAA123045A640067E68F /* Resources */,
+				284E4068EB1576F06135F8FB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50EFDAA623045A640067E68F /* PBXTargetDependency */,
+				50EFDAA823045A640067E68F /* PBXTargetDependency */,
+			);
+			name = balaiternakPresentationTests;
+			productName = balaiternakPresentationTests;
+			productReference = 50EFDAA323045A640067E68F /* balaiternakPresentationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50EFDAD0230463F30067E68F /* balaiternakRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EFDAE8230463F30067E68F /* Build configuration list for PBXNativeTarget "balaiternakRemote" */;
+			buildPhases = (
+				1150A8038225D6F5345229B1 /* [CP] Check Pods Manifest.lock */,
+				50EFDACC230463F30067E68F /* Headers */,
+				50EFDACD230463F30067E68F /* Sources */,
+				50EFDACE230463F30067E68F /* Frameworks */,
+				50EFDACF230463F30067E68F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = balaiternakRemote;
+			productName = balaiternakRemote;
+			productReference = 50EFDAD1230463F30067E68F /* balaiternakRemote.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50EFDAD8230463F30067E68F /* balaiternakRemoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EFDAEB230463F30067E68F /* Build configuration list for PBXNativeTarget "balaiternakRemoteTests" */;
+			buildPhases = (
+				E0BDB5F162AC6506DE7CBFA3 /* [CP] Check Pods Manifest.lock */,
+				50EFDAD5230463F30067E68F /* Sources */,
+				50EFDAD6230463F30067E68F /* Frameworks */,
+				50EFDAD7230463F30067E68F /* Resources */,
+				E716E0884F68251EAB03F278 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50EFDADC230463F30067E68F /* PBXTargetDependency */,
+				50EFDADE230463F30067E68F /* PBXTargetDependency */,
+			);
+			name = balaiternakRemoteTests;
+			productName = balaiternakRemoteTests;
+			productReference = 50EFDAD9230463F30067E68F /* balaiternakRemoteTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -151,6 +1107,46 @@
 						CreatedOnToolsVersion = 10.3;
 					};
 					500281432302497C006E4143 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5002812C2302497B006E4143;
+					};
+					5002815723024B0E006E4143 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+					5002815F23024B0E006E4143 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5002812C2302497B006E4143;
+					};
+					50EFDA302304433B0067E68F = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+					50EFDA382304433B0067E68F = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5002812C2302497B006E4143;
+					};
+					50EFDA6C230456B30067E68F = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+					50EFDA74230456B30067E68F = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5002812C2302497B006E4143;
+					};
+					50EFDA9A23045A640067E68F = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+					50EFDAA223045A640067E68F = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5002812C2302497B006E4143;
+					};
+					50EFDAD0230463F30067E68F = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+					50EFDAD8230463F30067E68F = {
 						CreatedOnToolsVersion = 10.3;
 						TestTargetID = 5002812C2302497B006E4143;
 					};
@@ -171,6 +1167,16 @@
 			targets = (
 				5002812C2302497B006E4143 /* balaiternak */,
 				500281432302497C006E4143 /* balaiternakTests */,
+				5002815723024B0E006E4143 /* balaiternakDomain */,
+				5002815F23024B0E006E4143 /* balaiternakDomainTests */,
+				50EFDA302304433B0067E68F /* balaiternakData */,
+				50EFDA382304433B0067E68F /* balaiternakDataTests */,
+				50EFDA6C230456B30067E68F /* balaiternakCache */,
+				50EFDA74230456B30067E68F /* balaiternakCacheTests */,
+				50EFDA9A23045A640067E68F /* balaiternakPresentation */,
+				50EFDAA223045A640067E68F /* balaiternakPresentationTests */,
+				50EFDAD0230463F30067E68F /* balaiternakRemote */,
+				50EFDAD8230463F30067E68F /* balaiternakRemoteTests */,
 			);
 		};
 /* End PBXProject section */
@@ -193,7 +1199,546 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5002815623024B0E006E4143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5002815E23024B0E006E4143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDA2F2304433B0067E68F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDA372304433B0067E68F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDA6B230456B30067E68F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDA73230456B30067E68F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDA9923045A640067E68F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDAA123045A640067E68F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDACF230463F30067E68F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDAD7230463F30067E68F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0956347F9EFA4946D01CCBBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-balaiternakPresentationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10C457FEF8852982442AF55F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-balaiternakDomain-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1150A8038225D6F5345229B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-balaiternakRemote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F1438F1CBA28598C3FD43B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-balaiternak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		284E4068EB1576F06135F8FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-balaiternakPresentationTests/Pods-balaiternakPresentationTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-balaiternakPresentationTests/Pods-balaiternakPresentationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A2A62E3080F35793C9C8D54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-balaiternakDomainTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EC28B22FF7D31234CEEC9F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-balaiternakDataTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7B5C19225F56F75CAFAA4BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-balaiternakDomainTests/Pods-balaiternakDomainTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-balaiternakDomainTests/Pods-balaiternakDomainTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A91671B03CC48FCE7BA33F41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-balaiternakCacheTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB22310B47996F2B0FCCE0BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-balaiternakCache-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB5C55CFAEF2687B528204E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-balaiternakTests/Pods-balaiternakTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-balaiternakTests/Pods-balaiternakTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF7D25FF315C29775144B023 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-balaiternakPresentation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8136D3ADDC11FFD0BD5A07C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-balaiternak/Pods-balaiternak-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-balaiternak/Pods-balaiternak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA99BE9B5E2DAF1096A8E46D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-balaiternakCacheTests/Pods-balaiternakCacheTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-balaiternakCacheTests/Pods-balaiternakCacheTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0BDB5F162AC6506DE7CBFA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-balaiternakRemoteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E58A165A392433778BE09360 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-balaiternakTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E716E0884F68251EAB03F278 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-balaiternakRemoteTests/Pods-balaiternakRemoteTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-balaiternakRemoteTests/Pods-balaiternakRemoteTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1E523949F6161DEDB73991F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-balaiternakDataTests/Pods-balaiternakDataTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-balaiternakDataTests/Pods-balaiternakDataTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF03CF22AB18EC9F25210DBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-balaiternakData-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		500281292302497B006E4143 /* Sources */ = {
@@ -214,6 +1759,108 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5002815423024B0E006E4143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5002817F23024D8C006E4143 /* Login.swift in Sources */,
+				5002817B23024D38006E4143 /* UserRepository.swift in Sources */,
+				5002817823024C9E006E4143 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5002815C23024B0E006E4143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5002816823024B0E006E4143 /* balaiternakDomainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDA2D2304433B0067E68F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EFDA5E230447DC0067E68F /* CustomError.swift in Sources */,
+				50EFDA6523044F090067E68F /* UserMapper.swift in Sources */,
+				50EFDA5C230447670067E68F /* UserRemoteDataStore.swift in Sources */,
+				50EFDA5A2304453F0067E68F /* UserCacheDataStore.swift in Sources */,
+				50EFDA6723044F190067E68F /* Mapper.swift in Sources */,
+				50EFDA60230448780067E68F /* UserDataStoreFactory.swift in Sources */,
+				50EFDA55230444BC0067E68F /* UserDataStore.swift in Sources */,
+				50EFDA622304496B0067E68F /* UserDataRepository.swift in Sources */,
+				50EFDA50230443660067E68F /* UserEntity.swift in Sources */,
+				50EFDA57230444FC0067E68F /* UserRemote.swift in Sources */,
+				50EFDA53230443940067E68F /* UserCache.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDA352304433B0067E68F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EFDA412304433B0067E68F /* balaiternakDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDA69230456B30067E68F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EFDA8C230457000067E68F /* CachedUser.swift in Sources */,
+				50EFDA91230457760067E68F /* UserEntityMapper.swift in Sources */,
+				50EFDA8F2304573D0067E68F /* EntityMapper.swift in Sources */,
+				50EFDA93230457E70067E68F /* UserCacheImpl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDA71230456B30067E68F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EFDA7D230456B30067E68F /* balaiternakCacheTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDA9723045A640067E68F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EFDAC723045BE20067E68F /* LoginViewModel.swift in Sources */,
+				50EFDAC323045B6F0067E68F /* UserMapper.swift in Sources */,
+				50EFDAC123045B300067E68F /* Mapper.swift in Sources */,
+				50EFDAC923045CA60067E68F /* ViewModelType.swift in Sources */,
+				50EFDABC23045AFF0067E68F /* UserView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDA9F23045A640067E68F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EFDAAB23045A640067E68F /* balaiternakPresentationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDACD230463F30067E68F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EFDAF42304645B0067E68F /* UserModel.swift in Sources */,
+				50EFDAF6230464830067E68F /* EntityMapper.swift in Sources */,
+				50EFDAF82304648C0067E68F /* UserEntityMapper.swift in Sources */,
+				50EFDAF2230464490067E68F /* UserRemoteImpl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EFDAD5230463F30067E68F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EFDAE1230463F30067E68F /* balaiternakRemoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -221,6 +1868,81 @@
 			isa = PBXTargetDependency;
 			target = 5002812C2302497B006E4143 /* balaiternak */;
 			targetProxy = 500281452302497C006E4143 /* PBXContainerItemProxy */;
+		};
+		5002816323024B0E006E4143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5002815723024B0E006E4143 /* balaiternakDomain */;
+			targetProxy = 5002816223024B0E006E4143 /* PBXContainerItemProxy */;
+		};
+		5002816523024B0E006E4143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5002812C2302497B006E4143 /* balaiternak */;
+			targetProxy = 5002816423024B0E006E4143 /* PBXContainerItemProxy */;
+		};
+		5002816C23024B0E006E4143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5002815723024B0E006E4143 /* balaiternakDomain */;
+			targetProxy = 5002816B23024B0E006E4143 /* PBXContainerItemProxy */;
+		};
+		50EFDA3C2304433B0067E68F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50EFDA302304433B0067E68F /* balaiternakData */;
+			targetProxy = 50EFDA3B2304433B0067E68F /* PBXContainerItemProxy */;
+		};
+		50EFDA3E2304433B0067E68F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5002812C2302497B006E4143 /* balaiternak */;
+			targetProxy = 50EFDA3D2304433B0067E68F /* PBXContainerItemProxy */;
+		};
+		50EFDA452304433B0067E68F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50EFDA302304433B0067E68F /* balaiternakData */;
+			targetProxy = 50EFDA442304433B0067E68F /* PBXContainerItemProxy */;
+		};
+		50EFDA78230456B30067E68F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50EFDA6C230456B30067E68F /* balaiternakCache */;
+			targetProxy = 50EFDA77230456B30067E68F /* PBXContainerItemProxy */;
+		};
+		50EFDA7A230456B30067E68F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5002812C2302497B006E4143 /* balaiternak */;
+			targetProxy = 50EFDA79230456B30067E68F /* PBXContainerItemProxy */;
+		};
+		50EFDA81230456B30067E68F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50EFDA6C230456B30067E68F /* balaiternakCache */;
+			targetProxy = 50EFDA80230456B30067E68F /* PBXContainerItemProxy */;
+		};
+		50EFDAA623045A640067E68F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50EFDA9A23045A640067E68F /* balaiternakPresentation */;
+			targetProxy = 50EFDAA523045A640067E68F /* PBXContainerItemProxy */;
+		};
+		50EFDAA823045A640067E68F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5002812C2302497B006E4143 /* balaiternak */;
+			targetProxy = 50EFDAA723045A640067E68F /* PBXContainerItemProxy */;
+		};
+		50EFDAAF23045A640067E68F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50EFDA9A23045A640067E68F /* balaiternakPresentation */;
+			targetProxy = 50EFDAAE23045A640067E68F /* PBXContainerItemProxy */;
+		};
+		50EFDADC230463F30067E68F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50EFDAD0230463F30067E68F /* balaiternakRemote */;
+			targetProxy = 50EFDADB230463F30067E68F /* PBXContainerItemProxy */;
+		};
+		50EFDADE230463F30067E68F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5002812C2302497B006E4143 /* balaiternak */;
+			targetProxy = 50EFDADD230463F30067E68F /* PBXContainerItemProxy */;
+		};
+		50EFDAE5230463F30067E68F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50EFDAD0230463F30067E68F /* balaiternakRemote */;
+			targetProxy = 50EFDAE4230463F30067E68F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -362,7 +2084,9 @@
 		};
 		5002814E2302497C006E4143 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A699A86ABA97A6C94C8E878 /* Pods-balaiternak.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9HK67NYE9A;
@@ -380,7 +2104,9 @@
 		};
 		5002814F2302497C006E4143 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE8F70A8BBAF591067B51FB5 /* Pods-balaiternak.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9HK67NYE9A;
@@ -398,6 +2124,7 @@
 		};
 		500281512302497C006E4143 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99775FC3FBB10EE22BCCD945 /* Pods-balaiternakTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -419,6 +2146,7 @@
 		};
 		500281522302497C006E4143 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382F0C01754C9A49B2C7CA49 /* Pods-balaiternakTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -431,6 +2159,521 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/balaiternak.app/balaiternak";
+			};
+			name = Release;
+		};
+		5002817023024B0F006E4143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E33AE88FAB9D6141B8FDAAAC /* Pods-balaiternakDomain.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9HK67NYE9A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = balaiternakDomain/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternak.domain;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5002817123024B0F006E4143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F903A9F0EE280D310F4E8BC9 /* Pods-balaiternakDomain.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9HK67NYE9A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = balaiternakDomain/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternak.domain;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5002817423024B0F006E4143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 402EF20CE78062569B2D3D1E /* Pods-balaiternakDomainTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HK67NYE9A;
+				INFOPLIST_FILE = balaiternakDomainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternakDomainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/balaiternak.app/balaiternak";
+			};
+			name = Debug;
+		};
+		5002817523024B0F006E4143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EDECEF4F05DC98CA98D48D8 /* Pods-balaiternakDomainTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HK67NYE9A;
+				INFOPLIST_FILE = balaiternakDomainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternakDomainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/balaiternak.app/balaiternak";
+			};
+			name = Release;
+		};
+		50EFDA482304433B0067E68F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DCA313BB4E0A56BFD57A92E /* Pods-balaiternakData.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9HK67NYE9A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = balaiternakData/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternak.data;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50EFDA492304433B0067E68F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE2D74542C0F7C3CB7C622C3 /* Pods-balaiternakData.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9HK67NYE9A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = balaiternakData/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternak.data;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50EFDA4A2304433B0067E68F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59387E901F4E1E043B6E2C96 /* Pods-balaiternakDataTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HK67NYE9A;
+				INFOPLIST_FILE = balaiternakDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternakDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/balaiternak.app/balaiternak";
+			};
+			name = Debug;
+		};
+		50EFDA4B2304433B0067E68F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8E97BB9A9A7ADB163C968D8 /* Pods-balaiternakDataTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HK67NYE9A;
+				INFOPLIST_FILE = balaiternakDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternakDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/balaiternak.app/balaiternak";
+			};
+			name = Release;
+		};
+		50EFDA85230456B30067E68F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26F776A71692A35533979C08 /* Pods-balaiternakCache.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9HK67NYE9A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = balaiternakCache/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternak.cache;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50EFDA86230456B30067E68F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF04BCBAE26E7B61EE8F3DF /* Pods-balaiternakCache.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9HK67NYE9A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = balaiternakCache/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternak.cache;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50EFDA88230456B30067E68F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B60CC6C7E66FAA05DEE782CC /* Pods-balaiternakCacheTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HK67NYE9A;
+				INFOPLIST_FILE = balaiternakCacheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternakCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/balaiternak.app/balaiternak";
+			};
+			name = Debug;
+		};
+		50EFDA89230456B30067E68F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55AB93740BECE1D67C81563F /* Pods-balaiternakCacheTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HK67NYE9A;
+				INFOPLIST_FILE = balaiternakCacheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternakCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/balaiternak.app/balaiternak";
+			};
+			name = Release;
+		};
+		50EFDAB323045A640067E68F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B683E33530E65E9937F565 /* Pods-balaiternakPresentation.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9HK67NYE9A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = balaiternakPresentation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternak.presentation;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50EFDAB423045A640067E68F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B31426E94898F746F9EB3BF /* Pods-balaiternakPresentation.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9HK67NYE9A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = balaiternakPresentation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternak.presentation;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50EFDAB623045A640067E68F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805F8345EB49067C43A9F7F9 /* Pods-balaiternakPresentationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HK67NYE9A;
+				INFOPLIST_FILE = balaiternakPresentationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternakPresentationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/balaiternak.app/balaiternak";
+			};
+			name = Debug;
+		};
+		50EFDAB723045A640067E68F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 889129439A694448A30AAB7B /* Pods-balaiternakPresentationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HK67NYE9A;
+				INFOPLIST_FILE = balaiternakPresentationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternakPresentationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/balaiternak.app/balaiternak";
+			};
+			name = Release;
+		};
+		50EFDAE9230463F30067E68F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB765DF3923EA0998118908E /* Pods-balaiternakRemote.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9HK67NYE9A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = balaiternakRemote/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternakRemote;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50EFDAEA230463F30067E68F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 046657DD293659ED43ABA24D /* Pods-balaiternakRemote.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9HK67NYE9A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = balaiternakRemote/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternakRemote;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50EFDAEC230463F30067E68F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE8B86F16B2FB79A75F68118 /* Pods-balaiternakRemoteTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HK67NYE9A;
+				INFOPLIST_FILE = balaiternakRemoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternakRemoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/balaiternak.app/balaiternak";
+			};
+			name = Debug;
+		};
+		50EFDAED230463F30067E68F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EDA31D92C4CA5C8885EAF92 /* Pods-balaiternakRemoteTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HK67NYE9A;
+				INFOPLIST_FILE = balaiternakRemoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.baznas.balaiternakRemoteTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,6 +2707,96 @@
 			buildConfigurations = (
 				500281512302497C006E4143 /* Debug */,
 				500281522302497C006E4143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5002816F23024B0F006E4143 /* Build configuration list for PBXNativeTarget "balaiternakDomain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5002817023024B0F006E4143 /* Debug */,
+				5002817123024B0F006E4143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5002817323024B0F006E4143 /* Build configuration list for PBXNativeTarget "balaiternakDomainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5002817423024B0F006E4143 /* Debug */,
+				5002817523024B0F006E4143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EFDA4C2304433B0067E68F /* Build configuration list for PBXNativeTarget "balaiternakData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EFDA482304433B0067E68F /* Debug */,
+				50EFDA492304433B0067E68F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EFDA4D2304433B0067E68F /* Build configuration list for PBXNativeTarget "balaiternakDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EFDA4A2304433B0067E68F /* Debug */,
+				50EFDA4B2304433B0067E68F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EFDA84230456B30067E68F /* Build configuration list for PBXNativeTarget "balaiternakCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EFDA85230456B30067E68F /* Debug */,
+				50EFDA86230456B30067E68F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EFDA87230456B30067E68F /* Build configuration list for PBXNativeTarget "balaiternakCacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EFDA88230456B30067E68F /* Debug */,
+				50EFDA89230456B30067E68F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EFDAB223045A640067E68F /* Build configuration list for PBXNativeTarget "balaiternakPresentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EFDAB323045A640067E68F /* Debug */,
+				50EFDAB423045A640067E68F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EFDAB523045A640067E68F /* Build configuration list for PBXNativeTarget "balaiternakPresentationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EFDAB623045A640067E68F /* Debug */,
+				50EFDAB723045A640067E68F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EFDAE8230463F30067E68F /* Build configuration list for PBXNativeTarget "balaiternakRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EFDAE9230463F30067E68F /* Debug */,
+				50EFDAEA230463F30067E68F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EFDAEB230463F30067E68F /* Build configuration list for PBXNativeTarget "balaiternakRemoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EFDAEC230463F30067E68F /* Debug */,
+				50EFDAED230463F30067E68F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

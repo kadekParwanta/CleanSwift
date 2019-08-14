@@ -1,0 +1,6 @@
+framework module Pods_balaiternakDomainTests {
+  umbrella header "Pods-balaiternakDomainTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

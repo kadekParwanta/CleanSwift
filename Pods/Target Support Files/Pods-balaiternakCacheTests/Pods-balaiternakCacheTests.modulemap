@@ -1,0 +1,6 @@
+framework module Pods_balaiternakCacheTests {
+  umbrella header "Pods-balaiternakCacheTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
