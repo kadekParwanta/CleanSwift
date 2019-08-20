@@ -22,11 +22,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let viewModel = LoginViewModel()
-        let input = LoginViewModel.Input(userName: txtUsername.rx.text.orEmpty.asDriver(), password: txtPassword.rx.text.orEmpty.asDriver(), submitTrigger: btnSubmit.rx.tap.asDriver())
-        let output = viewModel.transform(input: input)
-        output.dismiss.drive()
-            .disposed(by: disposeBag)
     }
 
 

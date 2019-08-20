@@ -1,8 +1,8 @@
 //
 //  ViewModelType.swift
-//  balaiternakPresentation
+//  balaiternak
 //
-//  Created by Ayu Ratna Wulandari on 14/08/19.
+//  Created by Ayu Ratna Wulandari on 20/08/19.
 //  Copyright © 2019 Kadek Juliana Parwanta. All rights reserved.
 //
 

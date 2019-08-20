@@ -21,10 +21,10 @@ public struct UserDataRepository: UserRepository {
     
     
     public func login(username: String, password: String) -> Observable<User> {
-        return factory.retrieveRemoteDataStore().login(username: username, password: password)
-            .flatMap {user -> Observable<UserEntity> in
-                self.factory.retrieveCacheDataStore().setUserPref(user: user)
-            }.map {self.mapper.mapFromEntity(type: $0)}
+        return factory.retrieveRemoteDataStore()
+            .login(username: username, password: password)
+            .flatMap { self.factory.retrieveCacheDataStore().setUserPref(user: $0) }
+            .map { self.mapper.mapFromEntity(type: $0) }
     }
     
     public func clearUser() -> Completable {

@@ -21,15 +21,25 @@
 		5002816123024B0E006E4143 /* balaiternakDomain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5002815823024B0E006E4143 /* balaiternakDomain.framework */; };
 		5002816823024B0E006E4143 /* balaiternakDomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5002816723024B0E006E4143 /* balaiternakDomainTests.swift */; };
 		5002816A23024B0E006E4143 /* balaiternakDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 5002815A23024B0E006E4143 /* balaiternakDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5002816D23024B0E006E4143 /* balaiternakDomain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5002815823024B0E006E4143 /* balaiternakDomain.framework */; };
 		5002816E23024B0E006E4143 /* balaiternakDomain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5002815823024B0E006E4143 /* balaiternakDomain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5002817823024C9E006E4143 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5002817723024C9E006E4143 /* User.swift */; };
 		5002817B23024D38006E4143 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5002817A23024D38006E4143 /* UserRepository.swift */; };
-		5002817F23024D8C006E4143 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5002817E23024D8C006E4143 /* Login.swift */; };
+		5002817F23024D8C006E4143 /* UserDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5002817E23024D8C006E4143 /* UserDomain.swift */; };
+		50E13BA8230B9977002B2388 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E13BA7230B9977002B2388 /* ActivityIndicator.swift */; };
+		50E13BAA230B998C002B2388 /* ErrorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E13BA9230B998C002B2388 /* ErrorTracker.swift */; };
+		50E13BAC230B99A6002B2388 /* Observable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E13BAB230B99A6002B2388 /* Observable+Ext.swift */; };
+		50E13BAE230B99C4002B2388 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E13BAD230B99C4002B2388 /* Reusable.swift */; };
+		50E13BB1230B9AA3002B2388 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E13BB0230B9AA3002B2388 /* UserViewModel.swift */; };
+		50E13BB4230B9AC7002B2388 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E13BB3230B9AC7002B2388 /* Mapper.swift */; };
+		50E13BB6230B9AF1002B2388 /* UserMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E13BB5230B9AF1002B2388 /* UserMapper.swift */; };
+		50E13BBA230B9C47002B2388 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E13BB9230B9C47002B2388 /* LoginViewController.swift */; };
+		50E13BBC230BB599002B2388 /* UserUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E13BBB230BB599002B2388 /* UserUseCase.swift */; };
+		50E13BBE230BB7F0002B2388 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E13BBD230BB7F0002B2388 /* Login.swift */; };
+		50E13BC0230BBA2D002B2388 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E13BBF230BBA2D002B2388 /* ViewModelType.swift */; };
+		50E13BC2230BBC3B002B2388 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E13BC1230BBC3B002B2388 /* LoginViewModel.swift */; };
 		50EFDA3A2304433B0067E68F /* balaiternakData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA312304433B0067E68F /* balaiternakData.framework */; };
 		50EFDA412304433B0067E68F /* balaiternakDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA402304433B0067E68F /* balaiternakDataTests.swift */; };
 		50EFDA432304433B0067E68F /* balaiternakData.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EFDA332304433B0067E68F /* balaiternakData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50EFDA462304433B0067E68F /* balaiternakData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA312304433B0067E68F /* balaiternakData.framework */; };
 		50EFDA472304433B0067E68F /* balaiternakData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA312304433B0067E68F /* balaiternakData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		50EFDA50230443660067E68F /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA4F230443660067E68F /* UserEntity.swift */; };
 		50EFDA53230443940067E68F /* UserCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA52230443940067E68F /* UserCache.swift */; };
@@ -45,7 +55,6 @@
 		50EFDA76230456B30067E68F /* balaiternakCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA6D230456B30067E68F /* balaiternakCache.framework */; };
 		50EFDA7D230456B30067E68F /* balaiternakCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA7C230456B30067E68F /* balaiternakCacheTests.swift */; };
 		50EFDA7F230456B30067E68F /* balaiternakCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EFDA6F230456B30067E68F /* balaiternakCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50EFDA82230456B30067E68F /* balaiternakCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA6D230456B30067E68F /* balaiternakCache.framework */; };
 		50EFDA83230456B30067E68F /* balaiternakCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA6D230456B30067E68F /* balaiternakCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		50EFDA8C230457000067E68F /* CachedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA8B230457000067E68F /* CachedUser.swift */; };
 		50EFDA8F2304573D0067E68F /* EntityMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA8E2304573D0067E68F /* EntityMapper.swift */; };
@@ -62,14 +71,11 @@
 		50EFDABC23045AFF0067E68F /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDABB23045AFF0067E68F /* UserView.swift */; };
 		50EFDAC123045B300067E68F /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDAC023045B300067E68F /* Mapper.swift */; };
 		50EFDAC323045B6F0067E68F /* UserMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDAC223045B6F0067E68F /* UserMapper.swift */; };
-		50EFDAC723045BE20067E68F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDAC623045BE20067E68F /* LoginViewModel.swift */; };
-		50EFDAC923045CA60067E68F /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDAC823045CA60067E68F /* ViewModelType.swift */; };
 		50EFDACA230460D60067E68F /* balaiternakData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA312304433B0067E68F /* balaiternakData.framework */; };
 		50EFDACB230461680067E68F /* balaiternakCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA6D230456B30067E68F /* balaiternakCache.framework */; };
 		50EFDADA230463F30067E68F /* balaiternakRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDAD1230463F30067E68F /* balaiternakRemote.framework */; };
 		50EFDAE1230463F30067E68F /* balaiternakRemoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDAE0230463F30067E68F /* balaiternakRemoteTests.swift */; };
 		50EFDAE3230463F30067E68F /* balaiternakRemote.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EFDAD3230463F30067E68F /* balaiternakRemote.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50EFDAE6230463F30067E68F /* balaiternakRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDAD1230463F30067E68F /* balaiternakRemote.framework */; };
 		50EFDAE7230463F30067E68F /* balaiternakRemote.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDAD1230463F30067E68F /* balaiternakRemote.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		50EFDAEE230463FF0067E68F /* balaiternakData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA312304433B0067E68F /* balaiternakData.framework */; };
 		50EFDAF2230464490067E68F /* UserRemoteImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDAF1230464490067E68F /* UserRemoteImpl.swift */; };
@@ -250,7 +256,19 @@
 		5002816923024B0E006E4143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5002817723024C9E006E4143 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5002817A23024D38006E4143 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
-		5002817E23024D8C006E4143 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		5002817E23024D8C006E4143 /* UserDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDomain.swift; sourceTree = "<group>"; };
+		50E13BA7230B9977002B2388 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		50E13BA9230B998C002B2388 /* ErrorTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorTracker.swift; sourceTree = "<group>"; };
+		50E13BAB230B99A6002B2388 /* Observable+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Ext.swift"; sourceTree = "<group>"; };
+		50E13BAD230B99C4002B2388 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		50E13BB0230B9AA3002B2388 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		50E13BB3230B9AC7002B2388 /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		50E13BB5230B9AF1002B2388 /* UserMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMapper.swift; sourceTree = "<group>"; };
+		50E13BB9230B9C47002B2388 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		50E13BBB230BB599002B2388 /* UserUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserUseCase.swift; sourceTree = "<group>"; };
+		50E13BBD230BB7F0002B2388 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		50E13BBF230BBA2D002B2388 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		50E13BC1230BBC3B002B2388 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		50EFDA312304433B0067E68F /* balaiternakData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = balaiternakData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50EFDA332304433B0067E68F /* balaiternakData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = balaiternakData.h; sourceTree = "<group>"; };
 		50EFDA342304433B0067E68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -287,8 +305,6 @@
 		50EFDABB23045AFF0067E68F /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		50EFDAC023045B300067E68F /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
 		50EFDAC223045B6F0067E68F /* UserMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMapper.swift; sourceTree = "<group>"; };
-		50EFDAC623045BE20067E68F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		50EFDAC823045CA60067E68F /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
 		50EFDAD1230463F30067E68F /* balaiternakRemote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = balaiternakRemote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50EFDAD3230463F30067E68F /* balaiternakRemote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = balaiternakRemote.h; sourceTree = "<group>"; };
 		50EFDAD4230463F30067E68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -332,10 +348,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50EFDA82230456B30067E68F /* balaiternakCache.framework in Frameworks */,
-				50EFDAE6230463F30067E68F /* balaiternakRemote.framework in Frameworks */,
-				50EFDA462304433B0067E68F /* balaiternakData.framework in Frameworks */,
-				5002816D23024B0E006E4143 /* balaiternakDomain.framework in Frameworks */,
 				50EFDAB023045A640067E68F /* balaiternakPresentation.framework in Frameworks */,
 				A91EF56023418C8E016901F8 /* Pods_balaiternak.framework in Frameworks */,
 			);
@@ -537,6 +549,10 @@
 		5002812F2302497B006E4143 /* balaiternak */ = {
 			isa = PBXGroup;
 			children = (
+				50E13BB7230B9BFA002B2388 /* scenes */,
+				50E13BB2230B9AB4002B2388 /* mapper */,
+				50E13BAF230B9A8B002B2388 /* model */,
+				50E13BA6230B9953002B2388 /* utility */,
 				500281302302497B006E4143 /* AppDelegate.swift */,
 				500281322302497B006E4143 /* ViewController.swift */,
 				500281342302497B006E4143 /* Main.storyboard */,
@@ -597,17 +613,55 @@
 		5002817C23024D75006E4143 /* interactor */ = {
 			isa = PBXGroup;
 			children = (
-				5002817D23024D7F006E4143 /* user */,
+				5002817E23024D8C006E4143 /* UserDomain.swift */,
 			);
 			path = interactor;
 			sourceTree = "<group>";
 		};
-		5002817D23024D7F006E4143 /* user */ = {
+		50E13BA6230B9953002B2388 /* utility */ = {
 			isa = PBXGroup;
 			children = (
-				5002817E23024D8C006E4143 /* Login.swift */,
+				50E13BA7230B9977002B2388 /* ActivityIndicator.swift */,
+				50E13BA9230B998C002B2388 /* ErrorTracker.swift */,
+				50E13BAB230B99A6002B2388 /* Observable+Ext.swift */,
+				50E13BAD230B99C4002B2388 /* Reusable.swift */,
+				50E13BBF230BBA2D002B2388 /* ViewModelType.swift */,
 			);
-			path = user;
+			path = utility;
+			sourceTree = "<group>";
+		};
+		50E13BAF230B9A8B002B2388 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				50E13BB0230B9AA3002B2388 /* UserViewModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		50E13BB2230B9AB4002B2388 /* mapper */ = {
+			isa = PBXGroup;
+			children = (
+				50E13BB3230B9AC7002B2388 /* Mapper.swift */,
+				50E13BB5230B9AF1002B2388 /* UserMapper.swift */,
+			);
+			path = mapper;
+			sourceTree = "<group>";
+		};
+		50E13BB7230B9BFA002B2388 /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				50E13BB8230B9C01002B2388 /* login */,
+			);
+			path = scenes;
+			sourceTree = "<group>";
+		};
+		50E13BB8230B9C01002B2388 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				50E13BB9230B9C47002B2388 /* LoginViewController.swift */,
+				50E13BC1230BBC3B002B2388 /* LoginViewModel.swift */,
+			);
+			path = login;
 			sourceTree = "<group>";
 		};
 		50EFDA322304433B0067E68F /* balaiternakData */ = {
@@ -717,7 +771,6 @@
 				50EFDABA23045AF40067E68F /* model */,
 				50EFDA9D23045A640067E68F /* balaiternakPresentation.h */,
 				50EFDA9E23045A640067E68F /* Info.plist */,
-				50EFDAC823045CA60067E68F /* ViewModelType.swift */,
 			);
 			path = balaiternakPresentation;
 			sourceTree = "<group>";
@@ -759,7 +812,8 @@
 		50EFDAC523045BD10067E68F /* user */ = {
 			isa = PBXGroup;
 			children = (
-				50EFDAC623045BE20067E68F /* LoginViewModel.swift */,
+				50E13BBB230BB599002B2388 /* UserUseCase.swift */,
+				50E13BBD230BB7F0002B2388 /* Login.swift */,
 			);
 			path = user;
 			sourceTree = "<group>";
@@ -1372,8 +1426,6 @@
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
 				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -1382,8 +1434,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1446,8 +1496,6 @@
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
 				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -1456,8 +1504,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1568,6 +1614,8 @@
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -1576,6 +1624,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1594,8 +1644,6 @@
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
 				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -1604,8 +1652,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1668,8 +1714,6 @@
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
 				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -1678,8 +1722,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1698,8 +1740,6 @@
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
 				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -1708,8 +1748,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1745,9 +1783,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50E13BA8230B9977002B2388 /* ActivityIndicator.swift in Sources */,
+				50E13BB6230B9AF1002B2388 /* UserMapper.swift in Sources */,
+				50E13BB1230B9AA3002B2388 /* UserViewModel.swift in Sources */,
 				500281332302497B006E4143 /* ViewController.swift in Sources */,
 				500281312302497B006E4143 /* AppDelegate.swift in Sources */,
+				50E13BB4230B9AC7002B2388 /* Mapper.swift in Sources */,
 				500281392302497B006E4143 /* balaiternak.xcdatamodeld in Sources */,
+				50E13BAC230B99A6002B2388 /* Observable+Ext.swift in Sources */,
+				50E13BC2230BBC3B002B2388 /* LoginViewModel.swift in Sources */,
+				50E13BC0230BBA2D002B2388 /* ViewModelType.swift in Sources */,
+				50E13BAA230B998C002B2388 /* ErrorTracker.swift in Sources */,
+				50E13BAE230B99C4002B2388 /* Reusable.swift in Sources */,
+				50E13BBA230B9C47002B2388 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1763,7 +1811,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5002817F23024D8C006E4143 /* Login.swift in Sources */,
+				5002817F23024D8C006E4143 /* UserDomain.swift in Sources */,
 				5002817B23024D38006E4143 /* UserRepository.swift in Sources */,
 				5002817823024C9E006E4143 /* User.swift in Sources */,
 			);
@@ -1826,10 +1874,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50EFDAC723045BE20067E68F /* LoginViewModel.swift in Sources */,
 				50EFDAC323045B6F0067E68F /* UserMapper.swift in Sources */,
+				50E13BBC230BB599002B2388 /* UserUseCase.swift in Sources */,
 				50EFDAC123045B300067E68F /* Mapper.swift in Sources */,
-				50EFDAC923045CA60067E68F /* ViewModelType.swift in Sources */,
+				50E13BBE230BB7F0002B2388 /* Login.swift in Sources */,
 				50EFDABC23045AFF0067E68F /* UserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

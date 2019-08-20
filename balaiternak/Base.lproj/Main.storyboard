@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="balaiternak" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="balaiternak" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,9 +42,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="btnSubmit" destination="Owc-8c-XmV" id="7NR-34-r5I"/>
-                        <outlet property="txtPassword" destination="jja-Kq-6NO" id="UgU-f1-iTm"/>
-                        <outlet property="txtUsername" destination="oOy-dQ-lfp" id="X1t-P2-RYH"/>
+                        <outlet property="btnSubmit" destination="Owc-8c-XmV" id="qg1-DO-5G8"/>
+                        <outlet property="txtPassword" destination="jja-Kq-6NO" id="Lkm-q7-cgY"/>
+                        <outlet property="txtUsername" destination="oOy-dQ-lfp" id="zB6-8p-glO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

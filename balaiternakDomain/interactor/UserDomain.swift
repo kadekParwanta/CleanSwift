@@ -9,7 +9,7 @@
 import Foundation
 import RxSwift
 
-public struct Login {
+public struct UserDomain {
     let userRepository: UserRepository
     
     public init(userRepository: UserRepository) {
