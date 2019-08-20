@@ -10,7 +10,7 @@ import Foundation
 import RxSwift
 
 public protocol UserRepository {
-    func login(username: String, password: String) -> Observable<User>
+    func login(username: String, password: String, type: Int) -> Observable<User>
     func clearUser() -> Completable
     func saveUser(user: User) -> Completable
     func getUser(id: String) -> Observable<User>

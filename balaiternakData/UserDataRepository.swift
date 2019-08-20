@@ -20,9 +20,9 @@ public struct UserDataRepository: UserRepository {
     }
     
     
-    public func login(username: String, password: String) -> Observable<User> {
+    public func login(username: String, password: String, type: Int) -> Observable<User> {
         return factory.retrieveRemoteDataStore()
-            .login(username: username, password: password)
+            .login(username: username, password: password, type: type)
             .flatMap { self.factory.retrieveCacheDataStore().setUserPref(user: $0) }
             .map { self.mapper.mapFromEntity(type: $0) }
     }

@@ -16,7 +16,7 @@ public struct UserDomain {
         self.userRepository = userRepository
     }
     
-    public func login(username: String, password: String) -> Observable<User> {
-        return userRepository.login(username: username, password: password)
+    public func login(username: String, password: String, type: Int) -> Observable<User> {
+        return userRepository.login(username: username, password: password, type: type)
     }
 }

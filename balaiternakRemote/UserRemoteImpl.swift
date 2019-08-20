@@ -17,14 +17,13 @@ public struct UserRemoteImpl: UserRemote {
     private let mapper: UserMapper
     
     public init() {
-        endPoint = ""
+        endPoint = Constants.baseUrl
         mapper = UserMapper()
     }
     
-    public func login(username: String, password: String) -> Observable<UserEntity> {
-        let parameters: [String: Any] = ["username":username, "password":password]
-        let absolutePath = "\(endPoint)/login"
-        return RxAlamofire.request(.post, absolutePath, parameters: parameters)
+    public func login(username: String, password: String, type: Int) -> Observable<UserEntity> {
+        let request = ApiRouter.login(username: username, password: password, type: type)
+        return RxAlamofire.request(request)
             .debug()
             .data()
             .map { try JSONDecoder().decode(UserModel.self, from: $0)}

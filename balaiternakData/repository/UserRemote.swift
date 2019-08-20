@@ -10,6 +10,6 @@ import Foundation
 import RxSwift
 
 public protocol UserRemote {
-    func login(username: String, password: String) -> Observable<UserEntity>
+    func login(username: String, password: String, type: Int) -> Observable<UserEntity>
     func getUser(id: String) -> Observable<UserEntity>
 }

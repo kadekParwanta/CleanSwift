@@ -24,7 +24,7 @@ public struct UserCacheDataStore: UserDataStore {
         return cache.saveUser(user: user)
     }
     
-    public func login(username: String, password: String) -> Observable<UserEntity> {
+    public func login(username: String, password: String, type: Int) -> Observable<UserEntity> {
         return Observable.error(CustomError.NotSupportedError)
     }
     

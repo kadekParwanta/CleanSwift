@@ -15,6 +15,7 @@ class LoginViewModel: ViewModelType {
     struct Input {
         let username: Driver<String>
         let password: Driver<String>
+        let type: Driver<Int>
         let submitTrigger: Driver<Void>
         
     }
@@ -36,11 +37,11 @@ class LoginViewModel: ViewModelType {
     func transform(input: LoginViewModel.Input) -> LoginViewModel.Output {
         let activityIndicator = ActivityIndicator()
         let errorTracker = ErrorTracker()
-        let usernameAndPass = Driver.combineLatest(input.username, input.password)
+        let credentials = Driver.combineLatest(input.username, input.password, input.type)
         let signedIn = input.submitTrigger
-            .withLatestFrom(usernameAndPass)
-            .flatMapLatest {[unowned self] pair in
-                return self.login.execute(params: pair)
+            .withLatestFrom(credentials)
+            .flatMapLatest {[unowned self] in
+                return self.login.execute(params: $0)
                     .map {self.mapper.mapToViewModel(type: $0)}
                     .trackActivity(activityIndicator)
                     .trackError(errorTracker)

@@ -25,8 +25,8 @@ public struct UserRemoteDataStore: UserDataStore {
         return Completable.error(CustomError.NotSupportedError)
     }
     
-    public func login(username: String, password: String) -> Observable<UserEntity> {
-        return remote.login(username: username, password: password)
+    public func login(username: String, password: String, type: Int) -> Observable<UserEntity> {
+        return remote.login(username: username, password: password, type: type)
     }
     
     public func getUser(id: String) -> Observable<UserEntity> {

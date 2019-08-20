@@ -12,7 +12,7 @@ import RxSwift
 public protocol UserDataStore {
     func clearUser() -> Completable
     func saveUser(user: UserEntity) -> Completable
-    func login(username: String, password: String) -> Observable<UserEntity>
+    func login(username: String, password: String, type: Int) -> Observable<UserEntity>
     func getUser(id: String) -> Observable<UserEntity>
     func isCached(id: String) -> Single<Bool>
     func setUserPref(user: UserEntity) -> Observable<UserEntity>

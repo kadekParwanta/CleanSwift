@@ -37,6 +37,8 @@
 		50E13BBE230BB7F0002B2388 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E13BBD230BB7F0002B2388 /* Login.swift */; };
 		50E13BC0230BBA2D002B2388 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E13BBF230BBA2D002B2388 /* ViewModelType.swift */; };
 		50E13BC2230BBC3B002B2388 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E13BC1230BBC3B002B2388 /* LoginViewModel.swift */; };
+		50EFBA38230C3B30006F6EBA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFBA37230C3B30006F6EBA /* Constants.swift */; };
+		50EFBA3A230C48AA006F6EBA /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFBA39230C48AA006F6EBA /* ApiRouter.swift */; };
 		50EFDA3A2304433B0067E68F /* balaiternakData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFDA312304433B0067E68F /* balaiternakData.framework */; };
 		50EFDA412304433B0067E68F /* balaiternakDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFDA402304433B0067E68F /* balaiternakDataTests.swift */; };
 		50EFDA432304433B0067E68F /* balaiternakData.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EFDA332304433B0067E68F /* balaiternakData.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -269,6 +271,8 @@
 		50E13BBD230BB7F0002B2388 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		50E13BBF230BBA2D002B2388 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
 		50E13BC1230BBC3B002B2388 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		50EFBA37230C3B30006F6EBA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		50EFBA39230C48AA006F6EBA /* ApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
 		50EFDA312304433B0067E68F /* balaiternakData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = balaiternakData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50EFDA332304433B0067E68F /* balaiternakData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = balaiternakData.h; sourceTree = "<group>"; };
 		50EFDA342304433B0067E68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -826,6 +830,8 @@
 				50EFDAD3230463F30067E68F /* balaiternakRemote.h */,
 				50EFDAD4230463F30067E68F /* Info.plist */,
 				50EFDAF1230464490067E68F /* UserRemoteImpl.swift */,
+				50EFBA37230C3B30006F6EBA /* Constants.swift */,
+				50EFBA39230C48AA006F6EBA /* ApiRouter.swift */,
 			);
 			path = balaiternakRemote;
 			sourceTree = "<group>";
@@ -1894,6 +1900,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50EFBA38230C3B30006F6EBA /* Constants.swift in Sources */,
+				50EFBA3A230C48AA006F6EBA /* ApiRouter.swift in Sources */,
 				50EFDAF42304645B0067E68F /* UserModel.swift in Sources */,
 				50EFDAF6230464830067E68F /* EntityMapper.swift in Sources */,
 				50EFDAF82304648C0067E68F /* UserEntityMapper.swift in Sources */,
