@@ -13,14 +13,14 @@ import RxCocoa
 
 class LoginViewModel: ViewModelType {
     struct Input {
-        let username: Observable<String>
-        let password: Observable<String>
+        let username: Driver<String>
+        let password: Driver<String>
         let submitTrigger: Driver<Void>
         
     }
     
     struct Output {
-        let dismiss: Driver<UserViewModel>
+        let signedIn: Driver<UserViewModel>
         let fetching: Driver<Bool>
         let error: Driver<Error>
     }
@@ -36,17 +36,19 @@ class LoginViewModel: ViewModelType {
     func transform(input: LoginViewModel.Input) -> LoginViewModel.Output {
         let activityIndicator = ActivityIndicator()
         let errorTracker = ErrorTracker()
-        let usernameAndPass = Observable.combineLatest(input.username, input.password)
-        let save = input.submitTrigger.asObservable()
+        let usernameAndPass = Driver.combineLatest(input.username, input.password)
+        let signedIn = input.submitTrigger
             .withLatestFrom(usernameAndPass)
-            .flatMapLatest {
-                self.login.execute(params: $0).trackActivity(activityIndicator).trackError(errorTracker)
-            }.map {
-                self.mapper.mapToViewModel(type: $0)
+            .flatMapLatest {[unowned self] pair in
+                return self.login.execute(params: pair)
+                    .map {self.mapper.mapToViewModel(type: $0)}
+                    .trackActivity(activityIndicator)
+                    .trackError(errorTracker)
+                    .asDriverOnErrorJustComplete()
             }
-            .asDriverOnErrorJustComplete()
+        
         let fetching = activityIndicator.asDriver()
         let errors = errorTracker.asDriver()
-        return Output(dismiss: save, fetching: fetching, error: errors)
+        return Output(signedIn: signedIn, fetching: fetching, error: errors)
     }
 }

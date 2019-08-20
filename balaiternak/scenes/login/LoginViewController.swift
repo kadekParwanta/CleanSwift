@@ -26,9 +26,9 @@ class LoginViewController: UIViewController {
     }
     
     func bindViewModel() {
-        let input = LoginViewModel.Input(username: txtUsername.rx.text.orEmpty.asObservable(), password: txtPassword.rx.text.orEmpty.asObservable(), submitTrigger: btnSubmit.rx.tap.asDriver())
+        let input = LoginViewModel.Input(username: txtUsername.rx.text.orEmpty.asDriver(), password: txtPassword.rx.text.orEmpty.asDriver(), submitTrigger: btnSubmit.rx.tap.asDriver())
         let output = viewModel.transform(input: input)
-        output.dismiss.drive().disposed(by: disposeBag)
+        output.signedIn.drive().disposed(by: disposeBag)
         output.fetching.drive {print("fetching...")}
             .disposed(by: disposeBag)
         output.error.drive(errorBinding).disposed(by: disposeBag)
