@@ -15,23 +15,22 @@ import RxAlamofire
 public struct UserRemoteImpl: UserRemote {
     private let endPoint: String
     private let mapper: UserMapper
+    private let apiClient: ApiClient
     
     public init() {
         endPoint = Constants.baseUrl
         mapper = UserMapper()
+        apiClient = ApiClient()
     }
     
     public func login(username: String, password: String, type: Int) -> Observable<UserEntity> {
         let request = ApiRouter.login(username: username, password: password, type: type)
-        return RxAlamofire.request(request)
-            .debug()
-            .data()
-            .map { try JSONDecoder().decode(UserModel.self, from: $0)}
+        return apiClient.getResponseObject(type: UserModel.self, request: request)
             .map { self.mapper.mapFromRemote(type: $0)}
     }
     
     public func getUser(id: String) -> Observable<UserEntity> {
-        return Observable.error(CustomError.NotSupportedError)
+        return Observable.error(Constants.ApiError.internalServerError)
     }
     
     

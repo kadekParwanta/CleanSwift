@@ -9,6 +9,7 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import balaiternakRemote
 
 class LoginViewController: UIViewController {
     
@@ -58,8 +59,23 @@ class LoginViewController: UIViewController {
     
     var errorBinding: Binder<Error> {
         return Binder(self, binding: { (vc, err) in
-            let alert = UIAlertController(title: "Error",
-                                          message: err.localizedDescription,
+            let title, message: String
+            if let errorResponse = err as? Constants.ApiError {
+                switch errorResponse {
+                case .dataError(let response):
+                    title = response.message
+                    message = response.data.first?.error ?? err.localizedDescription
+                default:
+                    title = "Error"
+                    message = err.localizedDescription
+                }
+            } else {
+                title = "Error"
+                message = err.localizedDescription
+            }
+            
+            let alert = UIAlertController(title: title,
+                                          message: message,
                                           preferredStyle: .alert)
             let action = UIAlertAction(title: "Dismiss",
                                        style: UIAlertAction.Style.cancel,

@@ -9,10 +9,17 @@
 import Foundation
 public struct UserModel : Codable {
     public let id: String
-    public let firstName: String
+    public let type: String
+    public let name: String
+    public let username: String
+    public let address: String
+    public let phone: String
+    public let email: String
+    public let token: String
+    public let firebaseKey: String
     
-    public init(id: String, firstName: String) {
-        self.id = id
-        self.firstName = firstName
+    enum CodingKeys: String, CodingKey {
+        case id, type, name, username, address, phone, email, token
+        case firebaseKey = "firebaseKey"
     }
 }

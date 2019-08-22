@@ -14,7 +14,7 @@ public struct UserMapper: EntityMapper {
     typealias E = UserEntity
     
     func mapFromRemote(type: UserModel) -> UserEntity {
-        return UserEntity(id: type.id, firstName: type.firstName)
+        return UserEntity(id: type.id, firstName: type.name)
     }
     
 }

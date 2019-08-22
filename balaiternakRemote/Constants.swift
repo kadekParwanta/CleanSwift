@@ -1,14 +1,14 @@
 //
 //  Constants.swift
-//  balaiternakRemote
+//  balaiternakShared
 //
 //  Created by Ayu Ratna Wulandari on 20/08/19.
 //  Copyright © 2019 Kadek Juliana Parwanta. All rights reserved.
 //
 
 import Foundation
-struct Constants {
-    static let baseUrl = "http://18.220.244.194/api"
+public struct Constants {
+    static let baseUrl = "http://18.220.244.194:3000/api"
     
     //The parameters (Queries) that we're gonna use
     struct Parameters {
@@ -31,10 +31,18 @@ struct Constants {
         case json = "application/json"
     }
     
-    enum ApiError: Error {
-        case forbidden              //Status code 403
-        case notFound               //Status code 404
-        case conflict               //Status code 409
-        case internalServerError    //Status code 500
+    public enum ApiError: Error {
+        case dataError(response: ApiErrorResponse)   //Status code 400+
+        case internalServerError                        //Status code 500
     }
+}
+
+public struct ApiErrorResponse: Codable {
+    public let status: Int
+    public let data: [ErrorMessage]
+    public let message: String
+}
+
+public struct ErrorMessage: Codable {
+    public let error: String
 }
