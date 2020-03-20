@@ -25,7 +25,7 @@ DEPENDENCIES:
   - RxTest
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - RxAlamofire
     - RxBlocking
@@ -43,6 +43,6 @@ SPEC CHECKSUMS:
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
   RxTest: 4349afe98f564e0a9bc19063368904622d17d49a
 
-PODFILE CHECKSUM: fde63a2c72ecb357fe87b72a38ecb7522ffdddb1
+PODFILE CHECKSUM: 5f41ee21d5f2542bac6ac47a9b040f1b89378202
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.4

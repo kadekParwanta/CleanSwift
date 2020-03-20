@@ -1,0 +1,6 @@
+framework module Pods_cleanswift {
+  umbrella header "Pods-cleanswift-umbrella.h"
+
+  export *
+  module * { export * }
+}

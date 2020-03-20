@@ -1,0 +1,6 @@
+framework module Pods_cleanswiftCache {
+  umbrella header "Pods-cleanswiftCache-umbrella.h"
+
+  export *
+  module * { export * }
+}

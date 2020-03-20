@@ -1,6 +1,0 @@
-framework module Pods_balaiternakRemote {
-  umbrella header "Pods-balaiternakRemote-umbrella.h"
-
-  export *
-  module * { export * }
-}

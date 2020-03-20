@@ -14,27 +14,27 @@ def test_pods
   pod 'RxBlocking'
 end
 
-target 'balaiternak' do
+target 'cleanswift' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for balaiternak
+  # Pods for cleanswift
   rx_cocoa
   rx_swift
 
-  target 'balaiternakTests' do
+  target 'cleanswiftTests' do
     inherit! :search_paths
     # Pods for testing
     test_pods
   end
 end
 
-target 'balaiternakDomain' do
+target 'cleanswiftDomain' do
   use_frameworks!
-  # Pods for balaiternakDomain
+  # Pods for cleanswiftDomain
   rx_swift
   
-  target 'balaiternakDomainTests' do
+  target 'cleanswiftDomainTests' do
     inherit! :search_paths
     # Pods for testing
     test_pods
@@ -42,50 +42,50 @@ target 'balaiternakDomain' do
 end
 
 
-target 'balaiternakData' do
+target 'cleanswiftData' do
   use_frameworks!
-  # Pods for balaiternakData
+  # Pods for cleanswiftData
   rx_swift
   
-  target 'balaiternakDataTests' do
+  target 'cleanswiftDataTests' do
     inherit! :search_paths
     # Pods for testing
     test_pods
   end
 end
 
-target 'balaiternakCache' do
+target 'cleanswiftCache' do
   use_frameworks!
-  # Pods for balaiternakCache
+  # Pods for cleanswiftCache
   rx_swift
   
-  target 'balaiternakCacheTests' do
+  target 'cleanswiftCacheTests' do
     inherit! :search_paths
     # Pods for testing
     test_pods
   end
 end
 
-target 'balaiternakPresentation' do
+target 'cleanswiftPresentation' do
   use_frameworks!
-  # Pods for balaiternakPresentation
+  # Pods for cleanswiftPresentation
   rx_swift
   
-  target 'balaiternakPresentationTests' do
+  target 'cleanswiftPresentationTests' do
     inherit! :search_paths
     # Pods for testing
     test_pods
   end
 end
 
-target 'balaiternakRemote' do
+target 'cleanswiftRemote' do
   use_frameworks!
-  # Pods for balaiternakRemote
+  # Pods for cleanswiftRemote
   rx_swift
   pod 'Alamofire'
   pod 'RxAlamofire'
   
-  target 'balaiternakRemoteTests' do
+  target 'cleanswiftRemoteTests' do
     inherit! :search_paths
     # Pods for testing
     test_pods
